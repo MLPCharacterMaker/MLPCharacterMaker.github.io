@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/styles.css' %}">
+</head>
+<style>
+    @font-face {
+        font-family: "Ponyville Medium";
+        src: url("{% static 'charactercreator/fonts/PonyvilleMedium.ttf' %}") format('truetype');
+    }
+
+    body {
+        font-family: "Ponyville Medium", Arial, serif;
+    }
+</style>
+<body>
+<div class="header">
+    <a class="logo" href="/">MLP TTRPG Character Creator & Manager</a>
+    <div class="nav">
+        <a href="/characters">List of characters</a>
+        <a href="/characters/create">Create a character</a>
+        <a href="/map">Map</a>
+    </div>
+</div>
+<div class="body">
+    <h1>Register</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Register</button>
+    </form>
+    <a href="/login">Login</a>
+</div>
+<div class="footer">
+    <a href="/characters">List of characters</a>
+    <a href="/characters/create">Create a character</a>
+    <a href="/logout">Logout</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+</body>
+</html>

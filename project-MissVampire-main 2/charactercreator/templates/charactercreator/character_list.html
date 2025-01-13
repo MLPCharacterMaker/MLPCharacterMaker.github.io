@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character List</title>
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/styles.css' %}">
+</head>
+<style>
+    @font-face {
+        font-family: "Ponyville Medium";
+        src: url("{% static 'charactercreator/fonts/PonyvilleMedium.ttf' %}") format('truetype');
+    }
+
+    body {
+        font-family: "Ponyville Medium", Arial, serif;
+    }
+</style>
+<body>
+<div class="header">
+    <a class="logo" href="/">MLP TTRPG Character Creator & Manager</a>
+    <div class="nav">
+        <a class="active" href="/characters">List of characters</a>
+        <a href="/characters/create">Create a character</a>
+        <a href="/map">Map</a>
+    </div>
+</div>
+<div class="body">
+    <h1>Character List</h1>
+    <ul class="characterlist">
+        {% for character in characters %}
+            <li class="character-item">
+                {% if character.image %}
+                    <img src="{{ character.image.url }}" alt="{{ character.name }}">
+                {% endif %}
+                <div>
+                    <a href="{% url 'view-character' pk=character.pk %}">{{ character.name }}</a>
+                    <p>Level: {{ character.level }} - Origin: {{ character.get_origin_display }} -
+                        Role: {{ character.get_role_display }}</p>
+                    {% if character.owner != user %}
+                        <div class="owner">Created by: {{ character.owner.username }}</div>
+                    {% endif %}
+                </div>
+            </li>
+        {% empty %}
+            <li>No characters available.</li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="footer">
+    <a href="/characters">List of characters</a>
+    <a href="/characters/create">Create a character</a>
+    <a href="/logout">Logout</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+</body>
+</html>

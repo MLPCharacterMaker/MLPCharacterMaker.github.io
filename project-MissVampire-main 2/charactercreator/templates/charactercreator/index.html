@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/styles.css' %}">
+</head>
+<style>
+    @font-face {
+        font-family: "Ponyville Medium";
+        src: url("{% static 'charactercreator/fonts/PonyvilleMedium.ttf' %}") format('truetype');
+    }
+
+    body {
+        font-family: "Ponyville Medium", Arial, serif;
+    }
+</style>
+<body>
+<div class="header">
+    <a class="logo" href="/">MLP TTRPG Character Creator & Manager</a>
+    <div class="nav">
+        <a href="/characters">List of characters</a>
+        <a href="/characters/create">Create a character</a>
+        <a href="/map">Map</a>
+    </div>
+</div>
+<div class="body">
+    <p>
+        Hello! This is my final project for my Multimedia Data Management course! :)
+        I'm planning on continuing to work on this even after the course is over.
+        All the features accessible on the website are functional, however there are more things I'd like to implement
+        in the future.
+    </p>
+    <br>
+    <br>
+    <p>
+        future:
+        additional sourcebooks
+        beastiary + GM tools
+        rule explanations,
+        interactive map(s?),
+        homebrew support
+    </p>
+</div>
+<div class="footer">
+    <a href="/characters">List of characters</a>
+    <a href="/characters/create">Create a character</a>
+    <a href="/logout">Logout</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+</body>
+</html>

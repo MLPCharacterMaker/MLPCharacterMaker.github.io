@@ -1,0 +1,369 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/styles.css' %}">
+</head>
+<style>
+    @font-face {
+        font-family: "Ponyville Medium";
+        src: url("{% static 'charactercreator/fonts/PonyvilleMedium.ttf' %}") format('truetype');
+    }
+
+    body {
+        font-family: "Ponyville Medium", Arial, serif;
+    }
+</style>
+<body>
+<div class="header">
+    <a class="logo" href="/">MLP TTRPG Character Creator & Manager</a>
+    <div class="nav">
+        <a href="/characters">List of characters</a>
+        <a href="/characters/create">Create a character</a>
+        <a href="/map">Map</a>
+    </div>
+</div>
+<div class="body">
+    <h1>Edit Character</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+
+
+        Name: {{ form.name }}
+        Pronouns: {{ form.pronouns }}
+        Level: {{ form.level }}
+        <br>
+        <div class="form-inline">
+            Origin:
+            <select id="id_origin" name="origin">
+                {% for value, label in form.fields.origin.choices %}
+                    <option value="{{ value }}" {% if form.origin.value == value %}selected{% endif %}>
+                        {{ label }}
+                    </option>
+                {% endfor %}
+            </select>
+            <span id="pegasus-movement-container" data-condition="P" style="display: none; margin-left: 10px;">
+                Pegasus Movement: {{ form.pegasus_movement }}
+            </span>
+        </div>
+        Role: {{ form.role }}
+        Special Talent: {{ form.special_talent }}
+        <br>
+        Bio: {{ form.description }}
+        <br>
+        Image: {{ form.image }}
+        Cutie Mark: {{ form.cutie_mark_image }}
+        <br>
+        <p>Stat points left to assign: <span id="remaining-points">12</span></p>
+        Strength: {{ form.base_strength }}
+        {{ form.strength_status }}
+        Speed: {{ form.base_speed }}
+        {{ form.speed_status }}
+        Smarts: {{ form.base_smarts }}
+        {{ form.smarts_status }}
+        Social: {{ form.base_social }}
+        {{ form.social_status }}
+
+        <fieldset>
+            <legend>Influences:</legend>
+            {% for influence in form.influences.field.queryset %}
+                <label>
+                    <input type="checkbox" name="influences" value="{{ influence.id }}"
+                            {% if influence in character.influences.all %} checked {% endif %}>
+                    <span class="influence-name">{{ influence.name }}</span>
+                    <details class="influence-details">
+                        <summary class="influence-summary"></summary>
+                        <div class="influence-description">
+                            <p>{{ influence.description }}</p>
+                            <p>
+                                <strong>Perk: {{ influence.perks.first.name }}:</strong> {{ influence.perks.first.description }}
+                            </p>
+                        </div>
+                    </details>
+                </label>
+            {% endfor %}
+        </fieldset>
+
+        <p>Remaining Hang-ups to Assign: <span id="remaining-hangups">0</span></p>
+        <fieldset>
+            <legend>Hang-ups:</legend>
+            {% for hangup in form.hangups.field.queryset %}
+                <label>
+                    <input type="checkbox" name="hangups" value="{{ hangup.id }}"
+                           data-influences="{{ hangup.influence.id }}"  {% if hangup in character.hangups.all %}
+                           checked {% endif %}>
+                    {{ hangup.name }}
+                    <!-- Dropdown for the hang-up description -->
+                    <details class="hangup-details">
+                        <summary class="hangup-summary"></summary>
+                        <div class="hangup-description">
+                            <p>{{ hangup.description }}</p>
+                        </div>
+                    </details>
+                </label>
+            {% endfor %}
+        </fieldset>
+        <fieldset>
+            <legend>Background Bonds</legend>
+            {% for background_bond in form.background_bonds.field.queryset %}
+                <label>
+                    <input type="checkbox" name="background_bonds" value="{{ background_bond.id }}"
+                           data-influences="{{ background_bond.influence.id }}">
+                    {{ background_bond.description }}
+                </label>
+            {% endfor %}
+        </fieldset>
+        Make Public: {{ form.public }}
+        <button type="submit">Save Character</button>
+    </form>
+
+
+    <form method="POST" action="{% url 'edit-character' character.pk %}" onsubmit="return confirmDelete();">
+        {% csrf_token %}
+        <button type="submit" name="delete" value="true">Delete Character</button>
+    </form>
+
+    <a href="{% url 'character-list' %}">Back to Character List</a>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const influenceCheckboxes = document.querySelectorAll("input[name='influences']");
+            const backgroundBondCheckboxes = document.querySelectorAll("input[name='background_bonds']");
+
+            // Map background bonds to their associated influences using data attributes
+            const bondMap = {};
+            backgroundBondCheckboxes.forEach(bond => {
+                const relatedInfluenceIds = bond.dataset.influences ? bond.dataset.influences.split(",") : [];
+                bondMap[bond.value] = relatedInfluenceIds.map(id => id.trim());
+            });
+
+            function updateBackgroundBonds() {
+                const selectedInfluences = Array.from(influenceCheckboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.value);
+
+                backgroundBondCheckboxes.forEach(bond => {
+                    const bondInfluences = bondMap[bond.value] || [];
+                    const isVisible = selectedInfluences.some(id => bondInfluences.includes(id));
+
+                    bond.parentElement.style.display = isVisible ? "" : "none";
+                    if (!isVisible) {
+                        bond.checked = false; // Uncheck hidden bonds
+                    }
+                });
+            }
+
+            // Attach event listeners to update visibility on influence changes
+            influenceCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener("change", updateBackgroundBonds);
+            });
+
+            // Initial update to set visibility on page load
+            updateBackgroundBonds();
+        });
+    </script>
+    <script>
+        //selecting hang-ups
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get influence checkboxes
+            const influenceCheckboxes = document.querySelectorAll("input[name='influences']");
+
+            // Get hang-up checkboxes
+            const hangupCheckboxes = document.querySelectorAll("input[name='hangups']");
+
+            // Get the element to display remaining hang-ups
+            const remainingHangupsElement = document.getElementById('remaining-hangups');
+
+            // Function to update remaining hang-ups
+            function updateRemainingHangups() {
+                // Get the number of selected influences
+                const selectedInfluencesCount = Array.from(influenceCheckboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .length;
+
+                // The number of hang-ups needed is equal to the number of selected influences minus 1
+                const remainingHangups = Math.max(selectedInfluencesCount - 1, 0); // Ensure it doesn't go below 0
+
+                // Get the number of selected hang-ups
+                const selectedHangupsCount = Array.from(hangupCheckboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .length;
+
+                // Calculate remaining hang-ups (based on influences selected)
+                const remainingHangupsToAssign = Math.max(remainingHangups - selectedHangupsCount, 0);
+
+                // Update the text content of the remaining hang-ups
+                remainingHangupsElement.textContent = remainingHangupsToAssign;
+
+                // Enable/disable hang-up checkboxes based on remaining hang-ups
+                hangupCheckboxes.forEach(hangup => {
+                    // Disable hang-ups that exceed the number of remaining points
+                    const isChecked = hangup.checked;
+                    const isEnabled = selectedInfluencesCount > 0 && selectedHangupsCount < remainingHangups;
+
+                    hangup.disabled = selectedHangupsCount >= remainingHangups && !isChecked;
+                    if (!isEnabled && !isChecked) {
+                        hangup.checked = false; // Uncheck hang-ups if they're disabled and not already checked
+                    }
+                });
+            }
+
+            // Add event listeners to influence checkboxes to update the remaining hang-ups
+            influenceCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', updateRemainingHangups);
+            });
+
+            // Add event listeners to hang-up checkboxes to update the remaining hang-ups
+            hangupCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', updateRemainingHangups);
+            });
+
+            // Initial update to set the correct remaining hang-ups
+            updateRemainingHangups();
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all influence and hang-up checkboxes
+            const influenceCheckboxes = document.querySelectorAll("input[name='influences']");
+            const hangupCheckboxes = document.querySelectorAll("input[name='hangups']");
+
+            // Map hang-ups to their associated influences using data attributes
+            const hangupMap = {};
+            hangupCheckboxes.forEach(hangup => {
+                const relatedInfluenceIds = hangup.dataset.influences ? hangup.dataset.influences.split(",") : [];
+                hangupMap[hangup.value] = relatedInfluenceIds.map(id => id.trim());
+            });
+
+            // Function to update visible hang-ups based on selected influences
+            function updateHangups() {
+                // Get selected influence IDs
+                const selectedInfluences = Array.from(influenceCheckboxes)
+                    .filter(checkbox => checkbox.checked)
+                    .map(checkbox => checkbox.value);
+
+                // Show/hide hang-ups based on selected influences
+                hangupCheckboxes.forEach(hangup => {
+                    const hangupInfluences = hangupMap[hangup.value] || [];
+                    const isVisible = selectedInfluences.some(id => hangupInfluences.includes(id));
+
+                    hangup.parentElement.style.display = isVisible ? "" : "none"; // Show or hide hang-up
+                    if (!isVisible) {
+                        hangup.checked = false; // Uncheck hidden hang-ups
+                    }
+                });
+            }
+
+            // Add event listeners to influence checkboxes
+            influenceCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener("change", updateHangups);
+            });
+
+            // Initial update to set the correct hang-up visibility
+            updateHangups();
+        });
+    </script>
+    <script>
+        // Stat status
+        document.addEventListener('DOMContentLoaded', () => {
+            // Dynamically handle unique status selection
+            const statusDropdowns = document.querySelectorAll('select[id$="_status"]');
+
+            statusDropdowns.forEach(dropdown => {
+                dropdown.addEventListener('change', () => {
+                    const selectedStatuses = Array.from(statusDropdowns)
+                        .map(d => d.value)
+                        .filter(value => value !== ""); // Exclude unselected statuses
+
+                    statusDropdowns.forEach(d => {
+                        Array.from(d.options).forEach(option => {
+                            // Disable already-selected options in other dropdowns
+                            option.disabled = selectedStatuses.includes(option.value) && d.value !== option.value;
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        // Stat assignment
+        document.addEventListener('DOMContentLoaded', () => {
+            const maxPoints = 13;
+            const inputs = document.querySelectorAll('input[type="number"]');
+            const remainingPointsSpan = document.getElementById('remaining-points');
+
+            function updateRemainingPoints() {
+                let total = 0;
+                inputs.forEach(input => {
+                    const value = parseInt(input.value) || 0; // Default to 0 if NaN
+                    total += value;
+                });
+
+                const remaining = maxPoints - total;
+
+                if (remainingPointsSpan) {
+                    remainingPointsSpan.textContent = String(remaining >= 0 ? remaining : 0);
+                }
+
+                inputs.forEach(input => {
+                    const currentValue = parseInt(input.value) || 0;
+
+
+                    input.max = 15;
+                    input.min = 1;
+
+
+                    if (remaining <= 0) {
+                        input.max = currentValue;
+                    }
+                });
+            }
+
+
+            inputs.forEach(input => {
+                input.addEventListener('input', updateRemainingPoints);
+            });
+
+
+            updateRemainingPoints();
+        });
+    </script>
+    <script>
+        //pegasus movement
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the origin field and the container for Pegasus Movement
+            const originField = document.querySelector('#id_origin');
+            const pegasusMovementContainer = document.querySelector('#pegasus-movement-container');
+
+            // Function to toggle the visibility of the Pegasus Movement field
+            function togglePegasusMovement() {
+                const selectedOrigin = originField.value;
+                const requiredCondition = pegasusMovementContainer.getAttribute('data-condition');
+
+                if (selectedOrigin === requiredCondition) {
+                    pegasusMovementContainer.style.display = ''; // Show the field
+                } else {
+                    pegasusMovementContainer.style.display = 'none'; // Hide the field
+                }
+            }
+
+            // Attach event listener to update visibility on origin change
+            originField.addEventListener('change', togglePegasusMovement);
+
+            // Initial toggle to set correct visibility on page load
+            togglePegasusMovement();
+        });
+    </script>
+</div>
+<div class="footer">
+    <a href="/characters">List of characters</a>
+    <a href="/characters/create">Create a character</a>
+    <a href="/logout">Logout</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+</body>
+</html>

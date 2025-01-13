@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Ponyville Medium", Arial, serif;
+    background-color: #c69fd5;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.body {
+    margin: 25px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #6d337d;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: #f4f0f0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: rgb(127, 70, 149);
+    color: #f4f0f0;
+}
+
+.header a.active {
+    background-color: #d35496;
+    color: #f4f0f0;
+}
+
+.nav {
+    float: right;
+}
+
+.character-item {
+    display: flex; /* Use flexbox to lay out items in a row */
+    align-items: center; /* Vertically center-align the items */
+    margin-bottom: 20px; /* Add some space between items */
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.character-item img {
+    width: 100px; /* Set the image width */
+    height: 100px; /* Set the image height */
+    object-fit: cover; /* Crop the image to fit */
+    object-position: top; /* Center the image */
+    margin-right: 15px; /* Add some space between the image and text */
+    border-radius: 5px;
+}
+
+.character-info {
+    flex-grow: 1; /* Allow the text area to grow and fill available space */
+}
+
+.character-info a {
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the character name bold */
+    font-size: 18px; /* Set a suitable font size */
+}
+
+form input, form textarea {
+    background-color: #e8d4f3;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    outline: none;
+}
+
+form button {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #e8d4f3;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+form button:focus {
+    background-color: #f5e6fb;
+}
+
+a {
+    text-decoration: underline;
+    color: #372460;
+}
+
+a:hover {
+    color: #4e3880;
+}
+
+.footer {
+    position: static;
+    bottom: 0;
+    background-color: #6d337d;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer a {
+    color: rgba(244, 240, 240, 0.5);
+}
+
+.footer a:hover {
+    color: rgba(244, 240, 240, 0.75);
+}
+
+.owner {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Influence section styles */
+
+.influence-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+label input[type="checkbox"] {
+    margin: 0; /* Remove top and bottom margins */
+}
+
+.influence-summary, .hangup-summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #4e3880;
+    display: inline-flex; /* Align the arrow and text inline */
+    align-items: center;
+    gap: 5px;
+}
+
+summary {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: '▼';
+    margin-left: 5px;
+}
+
+details[open] summary::before {
+    content: '▲'; /* Change the arrow direction when the section is open */
+}
+
+.influence-description, .hangup-description {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Add space between items */
+}
+
+#pegasus-movement-container select {
+    margin-left: 5px;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+legend {
+    padding-top: 5px;
+}
+
+.stats {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+

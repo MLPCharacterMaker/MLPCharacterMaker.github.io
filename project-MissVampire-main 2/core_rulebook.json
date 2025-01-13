@@ -1,0 +1,5646 @@
+{
+  "BackgroundBond": [
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 1,
+      "fields": {
+        "influence": 1,
+        "description": "I’m looking for unique artifacts of Equestria to gain a better understanding of the ponies who came before me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 2,
+      "fields": {
+        "influence": 1,
+        "description": "I don’t need fancy stuff to get by – just show me to a nice clearing to camp for the night!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 3,
+      "fields": {
+        "influence": 1,
+        "description": "I love meeting new ponies and finding common ground with those different from me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 4,
+      "fields": {
+        "influence": 1,
+        "description": "I’ve had a life-long “friendly” rival who, for years, has been searching for the same rare item as me. I often wonder who will find it first."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 5,
+      "fields": {
+        "influence": 1,
+        "description": "My survival instinct and love of exploration inspires others to choose me as the leader during adventures outside of town."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 6,
+      "fields": {
+        "influence": 1,
+        "description": "Because of my travels, I know ponies in every town around Equestria, even if I don’t know how to immediately get in touch with them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 7,
+      "fields": {
+        "influence": 1,
+        "description": "When I see a pony or other creature in need of help, I will put everything aside to do so, even if it means derailing my own trip. After all, that’s just a new adventure!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 8,
+      "fields": {
+        "influence": 1,
+        "description": "It angers me when other ponies treat nature with disrespect. Pick up your litter!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 9,
+      "fields": {
+        "influence": 1,
+        "description": "Sometimes I wander into places I know I shouldn’t go, but I can’t help my curiosity and constant desire to see what’s just around the bend."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 10,
+      "fields": {
+        "influence": 1,
+        "description": "I’ll happily give somepony the small amounts of food I’ve managed to forage, but I’d rather teach them how to get some themselves so they know what to do when I’m not around."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 11,
+      "fields": {
+        "influence": 1,
+        "description": "I’m content on my own, but I’d rather share my travels with friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 12,
+      "fields": {
+        "influence": 1,
+        "description": "I love to share stories of my adventures, and I’ll admit that sometimes I over exaggerate certain parts for a captive audience."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 13,
+      "fields": {
+        "influence": 2,
+        "description": "There is nothing I wouldn’t do to help an animal in need."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 14,
+      "fields": {
+        "influence": 2,
+        "description": "Sometimes I feel that I have a closer bond with animals than I do other ponies."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 15,
+      "fields": {
+        "influence": 2,
+        "description": "I was separated from an animal friend years ago, and I hope one day to find them again."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 16,
+      "fields": {
+        "influence": 2,
+        "description": "Wild animals can sometimes seem scary, but they are really just misunderstood."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 17,
+      "fields": {
+        "influence": 2,
+        "description": "Anypony who mistreats a helpless animal instantly becomes my enemy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 18,
+      "fields": {
+        "influence": 2,
+        "description": "I will always try to resolve a conflict with an animal with kindness and understanding instead of force."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 19,
+      "fields": {
+        "influence": 2,
+        "description": "I like to watch how animals accomplish tasks, from building nests to storing food. Ponies can learn a lot from animals."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 20,
+      "fields": {
+        "influence": 2,
+        "description": "The sound of a cat purring or a bird’s tweet instantly puts a smile on my face, even when I’m in a sour mood."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 21,
+      "fields": {
+        "influence": 2,
+        "description": "No animal is insignificant, even down to the tiniest ant."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 22,
+      "fields": {
+        "influence": 2,
+        "description": "I sometimes wish I could escape everyday pony life and just live in the forest with my animal friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 23,
+      "fields": {
+        "influence": 2,
+        "description": "I got in trouble swiping food from our kitchen to feed a hungry animal that lived outside my home, and I’m still convinced I did the right thing."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 24,
+      "fields": {
+        "influence": 2,
+        "description": "I am drawn to animals that others usually are afraid of, such as snakes, spiders, and sharks. They need friends, too!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 25,
+      "fields": {
+        "influence": 3,
+        "description": "I love to make my own gifts to give to friends and new ponies I meet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 26,
+      "fields": {
+        "influence": 3,
+        "description": "Sometimes I get jealous of other ponies when I think their art is better than mine."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 27,
+      "fields": {
+        "influence": 3,
+        "description": "I use my power of wordsmithing to recite stories and speeches that inspire others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 28,
+      "fields": {
+        "influence": 3,
+        "description": "A piece of my art was auctioned off at an event by accident, and although the bits went to a good cause, I’m sad about not being able to keep it for my home."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 29,
+      "fields": {
+        "influence": 3,
+        "description": "A mean-spirited pony once told me my art wasn’t good enough, and now I’m selfconscious about my work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 30,
+      "fields": {
+        "influence": 3,
+        "description": "One of the highly respected citizens of Manehattan is a patron of my art, and I’m always working to make them their next piece."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 31,
+      "fields": {
+        "influence": 3,
+        "description": "I believe art should exist for its own beauty, and it doesn’t need to serve a purpose or send a message."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 32,
+      "fields": {
+        "influence": 3,
+        "description": "I use tools given to me by a great artist, and one day I’ll pass them down to a new aspiring artist."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 33,
+      "fields": {
+        "influence": 3,
+        "description": "I pump all of my feelings, good or bad, into my art."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 34,
+      "fields": {
+        "influence": 3,
+        "description": "It brings me great joy when my art makes people happy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 35,
+      "fields": {
+        "influence": 3,
+        "description": "I want ponies to look at my art on display and instantly recognize it as mine, so I try to be as unique as possible."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 36,
+      "fields": {
+        "influence": 3,
+        "description": "My muse strikes at the most inopportune times – usually in the middle of the night or while I am performing other important tasks!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 37,
+      "fields": {
+        "influence": 4,
+        "description": "One of my biggest life goals is to meet my favorite author."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 38,
+      "fields": {
+        "influence": 4,
+        "description": "I’ve always wanted to write my own book, but I am scared other ponies may not love it as much as I love the books that I read."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 39,
+      "fields": {
+        "influence": 4,
+        "description": "I own so many books that other ponies joke that I could start my own library. Maybe someday I will!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 40,
+      "fields": {
+        "influence": 4,
+        "description": "My friend once told me about a secret library somewhere in Equestria, and it has always been a dream of mine to try to find it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 41,
+      "fields": {
+        "influence": 4,
+        "description": "One of my biggest peeves is when people mistreat books. Don’t fold down the corners – use a bookmark!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 42,
+      "fields": {
+        "influence": 4,
+        "description": "When I’ve recently read a new book, it’s all I talk about for days on end."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 43,
+      "fields": {
+        "influence": 4,
+        "description": "Knowledge is the key to everything, so I read everything I can, you never know what will be useful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 44,
+      "fields": {
+        "influence": 4,
+        "description": "I will always remember the teacher who taught me to read, and I want to teach others in the same way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 45,
+      "fields": {
+        "influence": 4,
+        "description": "I don’t often admit it, but I look down on ponies who don’t like to read."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 46,
+      "fields": {
+        "influence": 4,
+        "description": "I often fail to pay attention to the tasks at hand because I’m secretly reading a book under the table instead."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 47,
+      "fields": {
+        "influence": 4,
+        "description": "My favorite rare book was damaged long ago, and I hope to someday find another copy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 48,
+      "fields": {
+        "influence": 4,
+        "description": "Forget dogs – a book is a pony’s best friend!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 49,
+      "fields": {
+        "influence": 5,
+        "description": "I make a game out of everything, including housework!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 50,
+      "fields": {
+        "influence": 5,
+        "description": "When I miss a shot, I’m extremely hard on myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 51,
+      "fields": {
+        "influence": 5,
+        "description": "I’ll stop whatever I’m doing to hit a target with a random object."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 52,
+      "fields": {
+        "influence": 5,
+        "description": "My older sibling taught me the proper way to take aim, and I’ll always remember that."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 53,
+      "fields": {
+        "influence": 5,
+        "description": "When speaking to others, I always use buckballing terms such as “hitting a target” or “aiming to succeed.”"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 54,
+      "fields": {
+        "influence": 5,
+        "description": "I prefer to stand back and take a ranged approach vs. getting into the thick of a situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 55,
+      "fields": {
+        "influence": 5,
+        "description": "I like to show off and do fancy tricks with my bucking, even in serious situations."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 56,
+      "fields": {
+        "influence": 5,
+        "description": "I injured a family member once by not looking before I bucked, and now I always take the time to aim and be sure of my target."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 57,
+      "fields": {
+        "influence": 5,
+        "description": "I made up my own game that requires bucking apples into pails set up in different configurations, and I try to teach it to everyone I meet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 58,
+      "fields": {
+        "influence": 5,
+        "description": "Sometimes I’ll miss on purpose to make my fellow ponies feel less intimidated by my skills."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 59,
+      "fields": {
+        "influence": 5,
+        "description": "I blame my misses on other ponies, distractions, or whatever I can to distract from my embarrassment."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 60,
+      "fields": {
+        "influence": 5,
+        "description": "I’ll use my bucking ability over any other way to take care of a situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 61,
+      "fields": {
+        "influence": 6,
+        "description": "The secret to success is hard work and preparation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 62,
+      "fields": {
+        "influence": 6,
+        "description": "I love to invest in and help with my friends’ endeavors."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 63,
+      "fields": {
+        "influence": 6,
+        "description": "My dream is to open franchised locations of my business all over Equestria."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 64,
+      "fields": {
+        "influence": 6,
+        "description": "I feel most empowered when I can make the decisions for my team."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 65,
+      "fields": {
+        "influence": 6,
+        "description": "Solving problems in a business takes teamwork and communication, and the same can be said about problems outside of business as well."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 66,
+      "fields": {
+        "influence": 6,
+        "description": "I celebrate the ideas of my employees and co-workers, often with cake!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 67,
+      "fields": {
+        "influence": 6,
+        "description": "My business is a dream I’ve had since I was a foal, and I take great pride in it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 68,
+      "fields": {
+        "influence": 6,
+        "description": "Keeping my business running and profitable is of high priority to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 69,
+      "fields": {
+        "influence": 6,
+        "description": "I donate 25% of the bits I make with my business to local charities."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 70,
+      "fields": {
+        "influence": 6,
+        "description": "I take pride in being the best in my line of work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 71,
+      "fields": {
+        "influence": 6,
+        "description": "Sometimes I let work take too much time from my friends and family."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 72,
+      "fields": {
+        "influence": 6,
+        "description": "I get grumpy when others don’t appreciate how much hard work I put into any job, both in and outside my career."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 73,
+      "fields": {
+        "influence": 7,
+        "description": "I have a hard time keeping secrets"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 74,
+      "fields": {
+        "influence": 7,
+        "description": "I’m often afraid that people judge me for talking too much."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 75,
+      "fields": {
+        "influence": 7,
+        "description": "I love gossip – the juicier the better! I always want somepony to spill the tea with me!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 76,
+      "fields": {
+        "influence": 7,
+        "description": "I find myself constantly jumping from one topic to another."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 77,
+      "fields": {
+        "influence": 7,
+        "description": "A great story told by a friend is better than any book or production you’ll see at Ponyville Theater!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 78,
+      "fields": {
+        "influence": 7,
+        "description": "Sometimes I feel that there are too many things to say and too little time to say it without leaving out something important!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 79,
+      "fields": {
+        "influence": 7,
+        "description": "I often interrupt others, usually realizing I’ve done so way too late."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 80,
+      "fields": {
+        "influence": 7,
+        "description": "Just because I’m a talker, doesn’t mean I’m not a good listener. And I am great at remembering details about conversations I’ve had."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 81,
+      "fields": {
+        "influence": 7,
+        "description": "I once talked my way out of a very scary situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 82,
+      "fields": {
+        "influence": 7,
+        "description": "My friends know that if they ever need somepony to talk to, I’m always here for them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 83,
+      "fields": {
+        "influence": 7,
+        "description": "I get impatient with ponies who don’t seem to pay attention to what I’m talking about."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 84,
+      "fields": {
+        "influence": 7,
+        "description": "My nickname in school was “Filly-buster,” because I never let my teachers get through a sentence without interrupting with additional facts on the topic."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 85,
+      "fields": {
+        "influence": 8,
+        "description": "I am too impulsive when trying to show off or impress others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 86,
+      "fields": {
+        "influence": 8,
+        "description": "Positive affirmation and feedback from others makes me feel like I can accomplish anything."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 87,
+      "fields": {
+        "influence": 8,
+        "description": "I’m always performing in some way when around others, I’m not comfortable being myself unless I’m alone."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 88,
+      "fields": {
+        "influence": 8,
+        "description": "I suffer from imposter syndrome and sometimes wonder why people think I’m good at what I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 89,
+      "fields": {
+        "influence": 8,
+        "description": "I was very unpopular growing up, so I use my newfound stardom to include others who are often ignored."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 90,
+      "fields": {
+        "influence": 8,
+        "description": "If I did something awesome and nopony was around to see it, did I make a sound?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 91,
+      "fields": {
+        "influence": 8,
+        "description": "I often need to be the center of attention, even when it isn’t my place or turn."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 92,
+      "fields": {
+        "influence": 8,
+        "description": "I can be on stage all day long, but I’m very shy in one-on-one conversations."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 93,
+      "fields": {
+        "influence": 8,
+        "description": "I once met a celebrity who gave me some great advice. My goal is to perform on stage with them someday!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 94,
+      "fields": {
+        "influence": 8,
+        "description": "I secretly have major stage fright, but I always fight through it and have never let anypony but my closest friends know."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 95,
+      "fields": {
+        "influence": 8,
+        "description": "While I love to perform, when I’m not performing in my main medium, I feel uncomfortable and like I’m not good enough."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 96,
+      "fields": {
+        "influence": 8,
+        "description": "I’m looking to get my big break to become a superstar!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 97,
+      "fields": {
+        "influence": 9,
+        "description": "I have a habit of looking at an object and getting lost in ideas of how to improve it using the latest scientific and technological findings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 98,
+      "fields": {
+        "influence": 9,
+        "description": "While I love the idea of machines helping us accomplish our daily tasks in a more efficient manner, I still believe we can’t rely on them to do our thinking for us."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 99,
+      "fields": {
+        "influence": 9,
+        "description": "My speech is loaded with jargon that many other ponies don’t understand."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 100,
+      "fields": {
+        "influence": 9,
+        "description": "It is important to look to past mistakes in order to better prepare for future challenges."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 101,
+      "fields": {
+        "influence": 9,
+        "description": "I worry about the future and how ponies with less-than-generous motivations will use technology for their own greed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 102,
+      "fields": {
+        "influence": 9,
+        "description": "I use my futurist ideas to help think of ways to maintain a sustainable future for all of Equestria, without the need to worry about the quality of our food, water, or resources."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 103,
+      "fields": {
+        "influence": 9,
+        "description": "My ability to make future projections allows me to help my friends be ready for the unexpected, determine strategic actions, and build long-range plans of action, when needed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 104,
+      "fields": {
+        "influence": 9,
+        "description": "Whatever happens today, good or bad, will be ok. There is always a tomorrow."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 105,
+      "fields": {
+        "influence": 9,
+        "description": "I tend to flip-flop between being optimistic about a future utopia, highlighting ways to perfect society, and an anxious doomsday prophet, pointing out what could go wrong."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 106,
+      "fields": {
+        "influence": 9,
+        "description": "I get upset when I think about any creature who would damage our natural resources or pollute Equestria, as I see that abuse leading to detrimental environmental consequences in the future."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 107,
+      "fields": {
+        "influence": 9,
+        "description": "I don’t care about the academic side of futurism; I just want to wear the trendiest clothes, listen to the coolest music, and eat the now-est food."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 108,
+      "fields": {
+        "influence": 9,
+        "description": "When I’m working on a new idea, philosophy, or gadget, I sometimes don’t leave my home for days. Some ponies have called me a hermit, but I just get into a “zone” that I can’t shut off."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 109,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I have the impulse to use my hooves to get past a problem, when I really should be using my brain."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 110,
+      "fields": {
+        "influence": 10,
+        "description": "Training and building my muscles is an important priority for me, and the endorphin rush gets me pumped up for action!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 111,
+      "fields": {
+        "influence": 10,
+        "description": "Despite my ability to do so, fighting is always a last resort when I’m trying to solve a conflict."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 112,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I forget my own strength and am too rough with others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 113,
+      "fields": {
+        "influence": 10,
+        "description": "Hoof wrestling is one of my favorite pastimes, and I often challenge others to a match to solve disagreements. Who gets to decide what’s for dinner? Let’s hoof wrestle for it!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 114,
+      "fields": {
+        "influence": 10,
+        "description": "My strong frame may look intimidating, but on the inside, I’m friendly, helpful, and kind."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 115,
+      "fields": {
+        "influence": 10,
+        "description": "I’ve acted as a personal bodyguard to a few celebrities in Equestria."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 116,
+      "fields": {
+        "influence": 10,
+        "description": "When I was younger and not as even-tempered, I got in trouble at school for hoof fighting."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 117,
+      "fields": {
+        "influence": 10,
+        "description": "I broke my friend’s favorite household object by accident due to my overexertion of strength, and I vow to find them a replacement."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 118,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I feel guilty or anxious if I haven’t exercised that day."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 119,
+      "fields": {
+        "influence": 10,
+        "description": "For years, everypony has been telling me I should become a buckballer, since my kicks are so strong, but I’m just not that interested in sports."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 120,
+      "fields": {
+        "influence": 10,
+        "description": "I once kicked somepony in the face by accident, and they lost a permanent tooth. I’ll never forgive myself for not paying attention to my surroundings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 121,
+      "fields": {
+        "influence": 11,
+        "description": "I often feel like nobody understands me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 122,
+      "fields": {
+        "influence": 11,
+        "description": "My physical appearance gives an impression that is different than who I am inside."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 123,
+      "fields": {
+        "influence": 11,
+        "description": "I have trouble explaining how I really feel, and everything I say comes out as if I’m angry."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 124,
+      "fields": {
+        "influence": 11,
+        "description": "Other ponies think I’m arrogant, but I’m really just trying to be helpful with my knowledge."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 125,
+      "fields": {
+        "influence": 11,
+        "description": "I enjoy when other creatures are intimidated by me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 126,
+      "fields": {
+        "influence": 11,
+        "description": "I use my intensity to manipulate situations to my advantage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 127,
+      "fields": {
+        "influence": 11,
+        "description": "I grew up alone for the most part, so I tend to push people away until I learn to trust them"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 128,
+      "fields": {
+        "influence": 11,
+        "description": "I express my intensity through the music I listen to."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 129,
+      "fields": {
+        "influence": 11,
+        "description": "I enjoy engaging in physical activity to relieve my stress."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 130,
+      "fields": {
+        "influence": 11,
+        "description": "A fun day with friends helps to subdue my intense feelings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 131,
+      "fields": {
+        "influence": 11,
+        "description": "When I get frustrated, my intense nature expresses that frustration as anger."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 132,
+      "fields": {
+        "influence": 11,
+        "description": "I meditate each morning to help feel less intense and intimidating"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 133,
+      "fields": {
+        "influence": 12,
+        "description": "Mentoring others about the things I’m passionate about is truly fulfilling."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 134,
+      "fields": {
+        "influence": 12,
+        "description": "I have trouble saying no when ponies ask me for help."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 135,
+      "fields": {
+        "influence": 12,
+        "description": "Some ponies think I’m bossy, but I am just trying to help them do things the right way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 136,
+      "fields": {
+        "influence": 12,
+        "description": "I value being a confident mentor to others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 137,
+      "fields": {
+        "influence": 12,
+        "description": "I often give unsolicited advice."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 138,
+      "fields": {
+        "influence": 12,
+        "description": "I will always take the time to teach others anything I’ve learned that they also want to know."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 139,
+      "fields": {
+        "influence": 12,
+        "description": "The best mentor creates students that surpass them in skill."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 140,
+      "fields": {
+        "influence": 12,
+        "description": "Only those who are well-educated have the ability to make an informed choice."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 141,
+      "fields": {
+        "influence": 12,
+        "description": "I am secretly jealous of one of my mentees."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 142,
+      "fields": {
+        "influence": 12,
+        "description": "I feel resentful when a mentee doesn’t appreciate my time."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 143,
+      "fields": {
+        "influence": 12,
+        "description": "While I have knowledge in certain areas, I still feel like I have a lot to learn."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 144,
+      "fields": {
+        "influence": 12,
+        "description": "I feel better when teaching a group of friends than hoarding knowledge to myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 145,
+      "fields": {
+        "influence": 13,
+        "description": "I’m slippery with the truth, except when speaking with my best friends and family."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 146,
+      "fields": {
+        "influence": 13,
+        "description": "I’ll do what I have to in order to be successful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 147,
+      "fields": {
+        "influence": 13,
+        "description": "I was tricked out of my family fortune, and now I’ll use those same tricks to get it back."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 148,
+      "fields": {
+        "influence": 13,
+        "description": "I love to gamble and will make impulsive bets, relying on my sleight of hoof to cheat my way into a win."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 149,
+      "fields": {
+        "influence": 13,
+        "description": "Who can say that Snake Oil doesn’t really work?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 150,
+      "fields": {
+        "influence": 13,
+        "description": "When caught in a lie, my first instinct is to run away."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 151,
+      "fields": {
+        "influence": 13,
+        "description": "I once put the blame on my best friend, and I will never forgive myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 152,
+      "fields": {
+        "influence": 13,
+        "description": "I was forced into a life of hardship at a young age."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 153,
+      "fields": {
+        "influence": 13,
+        "description": "I like to “game the system” to get what I want."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 154,
+      "fields": {
+        "influence": 13,
+        "description": "I can talk my way out of almost any sticky situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 155,
+      "fields": {
+        "influence": 13,
+        "description": "I once sold a product under false pretenses that made another pony sick. After that, I draw the line at selling counterfeit goods."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 156,
+      "fields": {
+        "influence": 13,
+        "description": "My biggest enemy forgave me for tricking them, and I’ve learned the value of forgiveness."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 157,
+      "fields": {
+        "influence": 14,
+        "description": "I am so flexible that I can move my body like a contortionist, which freaks some ponies out."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 158,
+      "fields": {
+        "influence": 14,
+        "description": "Some day, I want to compete in gymnastics in the Equestria Games."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 159,
+      "fields": {
+        "influence": 14,
+        "description": "I’m very athletic but I don’t like to show off my skills, competition and athletic displays just seem a bit silly to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 160,
+      "fields": {
+        "influence": 14,
+        "description": "My family comes from a long line of circus performers."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 161,
+      "fields": {
+        "influence": 14,
+        "description": "Why walk when you can cartwheel?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 162,
+      "fields": {
+        "influence": 14,
+        "description": "Acrobatics seems like a solo talent, but so much relies on a good partner who understands balance."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 163,
+      "fields": {
+        "influence": 14,
+        "description": "I’ll bend over backwards for a friend. Get it?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 164,
+      "fields": {
+        "influence": 14,
+        "description": "I broke my leg while trying an acrobatic trick, and every once in a while, it acts up on me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 165,
+      "fields": {
+        "influence": 14,
+        "description": "I’m quick to tumble both into and out of trouble."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 166,
+      "fields": {
+        "influence": 14,
+        "description": "I want to take my talents to Las Pegasus and join one of the shows."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 167,
+      "fields": {
+        "influence": 14,
+        "description": "I know I’ve tried my hardest when my muscles ache."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 168,
+      "fields": {
+        "influence": 14,
+        "description": "I always strive to put my skills to the best use for my whole team."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 169,
+      "fields": {
+        "influence": 15,
+        "description": "I just want everyone to have fun!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 170,
+      "fields": {
+        "influence": 15,
+        "description": "Life is better when it’s loud."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 171,
+      "fields": {
+        "influence": 15,
+        "description": "I love a party but no one else seems to want them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 172,
+      "fields": {
+        "influence": 15,
+        "description": "I wish someone would throw a party for me one day."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 173,
+      "fields": {
+        "influence": 15,
+        "description": "The best thing about parties is meeting new people."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 174,
+      "fields": {
+        "influence": 15,
+        "description": "It’s not a party without games and challenges."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 175,
+      "fields": {
+        "influence": 15,
+        "description": "A party can happen at any time, so I must always be ready."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 176,
+      "fields": {
+        "influence": 15,
+        "description": "It’s not a real party unless all my friends are there."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 177,
+      "fields": {
+        "influence": 15,
+        "description": "A party is a great way to avoid thinking about things that upset you."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 178,
+      "fields": {
+        "influence": 15,
+        "description": "I like to make every party memorable in some way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 179,
+      "fields": {
+        "influence": 15,
+        "description": "Everyone loves a good party (even when they say they don’t…)"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 180,
+      "fields": {
+        "influence": 15,
+        "description": "No one throws a better party than me!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 181,
+      "fields": {
+        "influence": 16,
+        "description": "Sometimes I feel bad that ponies only look to me when they need me to help them with my strength and not my good ideas."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 182,
+      "fields": {
+        "influence": 16,
+        "description": "I like to use my brawn to build houses and other large projects as a creative outlet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 183,
+      "fields": {
+        "influence": 16,
+        "description": "I’m eager to help other ponies who are not as big and strong as I am, just as I’m glad when they help me with things I’m not as good at doing. That’s what friendship is all about"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 184,
+      "fields": {
+        "influence": 16,
+        "description": "I come from a long line of haulers and lifters, and it’s a family tradition to continue that type of work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 185,
+      "fields": {
+        "influence": 16,
+        "description": "My size and strength cause me to be hungry all the time!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 186,
+      "fields": {
+        "influence": 16,
+        "description": "I prefer to walk than to take a carriage or train to my destination."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 187,
+      "fields": {
+        "influence": 16,
+        "description": "I enjoy putting in a hard day’s work of heavy labor, and it makes me feel accomplished that my own hooves can get things done."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 188,
+      "fields": {
+        "influence": 16,
+        "description": "I was the smallest in my family when I was young, and my siblings made fun of me for it. Even though I’m big and strong now, I can’t forget how they teased me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 189,
+      "fields": {
+        "influence": 16,
+        "description": "I will use my physical form to block or protect an innocent creature from danger. I can take it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 190,
+      "fields": {
+        "influence": 16,
+        "description": "I often think about how I wish I was as strong on the inside as I am on the outside."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 191,
+      "fields": {
+        "influence": 16,
+        "description": "If I had a bit for everypony who has told me that they owe me a favor for helping them with my strength, well…I’d have a lot of bits!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 192,
+      "fields": {
+        "influence": 16,
+        "description": "I won a weightlifting trophy at the Iron Pony competition a few years ago, and nopony has broken my record yet!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 193,
+      "fields": {
+        "influence": 17,
+        "description": "Conformity is important to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 194,
+      "fields": {
+        "influence": 17,
+        "description": "If I don’t do something perfectly right, I try again and again until I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 195,
+      "fields": {
+        "influence": 17,
+        "description": "I never feel like I am good enough at what I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 196,
+      "fields": {
+        "influence": 17,
+        "description": "I love when everything works out as I planned."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 197,
+      "fields": {
+        "influence": 17,
+        "description": "Messy environments give me anxiety."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 198,
+      "fields": {
+        "influence": 17,
+        "description": "My parent always said I should be a surgeon, since I have such a steady hoof."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 199,
+      "fields": {
+        "influence": 17,
+        "description": "I enjoy crafts that require fine details."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 200,
+      "fields": {
+        "influence": 17,
+        "description": "Other ponies look to me when they need help hanging pictures straight and the like."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 201,
+      "fields": {
+        "influence": 17,
+        "description": "I have excellent penmanship."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 202,
+      "fields": {
+        "influence": 17,
+        "description": "I pamper my hooves whenever possible, since I rely on them for my excellent fine motor skills."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 203,
+      "fields": {
+        "influence": 17,
+        "description": "“Good from far, but far from good” is a phrase I will never agree with."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 204,
+      "fields": {
+        "influence": 17,
+        "description": "I love to learn new skills that showcase my talent with precision."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 205,
+      "fields": {
+        "influence": 18,
+        "description": "I’m an excellent judge of character, but it is difficult for others to “read” me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 206,
+      "fields": {
+        "influence": 18,
+        "description": "While I’m usually great at making decisions, if I can’t quite choose, I’ll flip a coin."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 207,
+      "fields": {
+        "influence": 18,
+        "description": "I always trust my gut."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 208,
+      "fields": {
+        "influence": 18,
+        "description": "I take a long time to analyze a situation and determine what action to take."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 209,
+      "fields": {
+        "influence": 18,
+        "description": "Others turn to me for advice, and I enjoy giving it to them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 210,
+      "fields": {
+        "influence": 18,
+        "description": "My mentor taught me that one wrong choice can impact many lives, so I strive to always think how my actions will affect others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 211,
+      "fields": {
+        "influence": 18,
+        "description": "I get frustrated with ponies who can’t make a decision."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 212,
+      "fields": {
+        "influence": 18,
+        "description": "I’m shrewd as a serpent, innocent as a dove."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 213,
+      "fields": {
+        "influence": 18,
+        "description": "I pride myself on being able to assess a situation quickly and to use this understanding to my advantage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 214,
+      "fields": {
+        "influence": 18,
+        "description": "I’m shrewd in business but a sucker when it comes to my friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 215,
+      "fields": {
+        "influence": 18,
+        "description": "I have a tactical mind for negotiation and strategy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 216,
+      "fields": {
+        "influence": 18,
+        "description": "I’m not above using deceit or deviousness to get my own way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 217,
+      "fields": {
+        "influence": 19,
+        "description": "Talent wins games, but teamwork wins championships."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 218,
+      "fields": {
+        "influence": 19,
+        "description": "I’m harder on myself when I make a mistake than I am on my teammates."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 219,
+      "fields": {
+        "influence": 19,
+        "description": "My competitive nature sometimes irks other ponies."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 220,
+      "fields": {
+        "influence": 19,
+        "description": "I often prioritize buckball ahead of other important parts of my life."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 221,
+      "fields": {
+        "influence": 19,
+        "description": "My former coach instilled a drive for perfection in me that sometimes seems impossible to obtain."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 222,
+      "fields": {
+        "influence": 19,
+        "description": "I don’t care who wins the game, as long as everypony is having fun."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 223,
+      "fields": {
+        "influence": 19,
+        "description": "I’m always the first pony to suggest an after-practice hangout, with snacks!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 224,
+      "fields": {
+        "influence": 19,
+        "description": "I broke my leg playing buckball when I was just a foal, and it never quite healed right."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 225,
+      "fields": {
+        "influence": 19,
+        "description": "I was caught cheating in a buckball game once, and the pony who saw it has never spoken up about it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 226,
+      "fields": {
+        "influence": 19,
+        "description": "I will make a game out of any minimal task, whether it is throwing away a piece of trash or cooking a meal."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 227,
+      "fields": {
+        "influence": 19,
+        "description": "Practice makes perfect, in buckball and everything else."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 228,
+      "fields": {
+        "influence": 19,
+        "description": "I know I’m good at sports, but sometimes I wish ponies would appreciate me for my other talents."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 229,
+      "fields": {
+        "influence": 20,
+        "description": "I tend to run into action before a plan is fully formed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 230,
+      "fields": {
+        "influence": 20,
+        "description": "I use my initiative to determine the course of action by my entire party"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 231,
+      "fields": {
+        "influence": 20,
+        "description": "I often speak before I think."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 232,
+      "fields": {
+        "influence": 20,
+        "description": "Even though I’m quicker than others, I’ll always ask their opinion on what I should do before acting."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 233,
+      "fields": {
+        "influence": 20,
+        "description": "My mentor taught me that when you take initiative, you’re responsible for modeling proper actions to others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 234,
+      "fields": {
+        "influence": 20,
+        "description": "I get upset when I decide on a plan, and another pony does something to contradict it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 235,
+      "fields": {
+        "influence": 20,
+        "description": "Even though I move quickly, I speak very slowly."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 236,
+      "fields": {
+        "influence": 20,
+        "description": "I’ll never turn down a challenge to a race of any kind."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 237,
+      "fields": {
+        "influence": 20,
+        "description": "I once acted too impulsively and have a permanent scar as a reminder."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 238,
+      "fields": {
+        "influence": 20,
+        "description": "I beat my training partner in a race at the Equestria Games for the gold, and now they don’t talk to me anymore."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 239,
+      "fields": {
+        "influence": 20,
+        "description": "The early bird gets the worm."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 240,
+      "fields": {
+        "influence": 20,
+        "description": "I never look before I leap."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 241,
+      "fields": {
+        "influence": 21,
+        "description": "Fashion is for everyone."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 242,
+      "fields": {
+        "influence": 21,
+        "description": "I don’t have time for people who don’t take time to look good."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 243,
+      "fields": {
+        "influence": 21,
+        "description": "Everyone can look beautiful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 244,
+      "fields": {
+        "influence": 21,
+        "description": "If I’m not well dressed, I don’t leave the house."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 245,
+      "fields": {
+        "influence": 21,
+        "description": "I love to discover new styles and clothing traditions."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 246,
+      "fields": {
+        "influence": 21,
+        "description": "Good fashion is all about the accessories."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 247,
+      "fields": {
+        "influence": 21,
+        "description": "There is no such thing as too much fashion!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 248,
+      "fields": {
+        "influence": 21,
+        "description": "I lead fashion, I don’t follow it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 249,
+      "fields": {
+        "influence": 21,
+        "description": "My style doesn’t follow fashion; it is as timeless as I am."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 250,
+      "fields": {
+        "influence": 21,
+        "description": "Dark and mysterious colors are best."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 251,
+      "fields": {
+        "influence": 21,
+        "description": "Bright and exciting colors are best."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 252,
+      "fields": {
+        "influence": 21,
+        "description": "I can make anything look good."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 253,
+      "fields": {
+        "influence": 22,
+        "description": "I enjoy putting on disguises and pretending to be somepony else."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 254,
+      "fields": {
+        "influence": 22,
+        "description": "Diversions are just as important as stealth."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 255,
+      "fields": {
+        "influence": 22,
+        "description": "I like to speak in different accents to hide my identity, even if I’m not the best at it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 256,
+      "fields": {
+        "influence": 22,
+        "description": "Even my closest friends don’t know my real name."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 257,
+      "fields": {
+        "influence": 22,
+        "description": "I was once a member of a secret spy organization."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 258,
+      "fields": {
+        "influence": 22,
+        "description": "My biggest fear is slipping up when I’m supposed to be “somepony else.”"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 259,
+      "fields": {
+        "influence": 22,
+        "description": "I think I’m a lot sneakier than I really am."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 260,
+      "fields": {
+        "influence": 22,
+        "description": "My tricky nature has made me paranoid of others, and I always question the motives of strangers."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 261,
+      "fields": {
+        "influence": 22,
+        "description": "When one hoof is doing something in the open, the other is always hiding something."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 262,
+      "fields": {
+        "influence": 22,
+        "description": "Even though I’m good at it, it makes me feel bad to lie to anyone, even with good intentions."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 263,
+      "fields": {
+        "influence": 22,
+        "description": "I sometimes get so caught up in my own deceptions that I forget what the real truth is."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 264,
+      "fields": {
+        "influence": 22,
+        "description": "I will never deceive anyone who isn’t evil."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 265,
+      "fields": {
+        "influence": 23,
+        "description": "Trust nopony."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 266,
+      "fields": {
+        "influence": 23,
+        "description": "When out on an adventure, someone needs to keep watch at all times."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 267,
+      "fields": {
+        "influence": 23,
+        "description": "I hate surprises."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 268,
+      "fields": {
+        "influence": 23,
+        "description": "I get little sleep because I’m always worried something bad might happen."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 269,
+      "fields": {
+        "influence": 23,
+        "description": "I like to keep a record of the things that happen in my neighborhood, looking for patterns in other ponies’ behaviors."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 270,
+      "fields": {
+        "influence": 23,
+        "description": "Staying alert to my surroundings is the key to subverting danger."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 271,
+      "fields": {
+        "influence": 23,
+        "description": "I’m extremely detail oriented and can recall the previous day’s events perfectly."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 272,
+      "fields": {
+        "influence": 23,
+        "description": "I always look twice at anything, just in case I miss something the first time."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 273,
+      "fields": {
+        "influence": 23,
+        "description": "I’m always on the lookout for trouble that may be coming our way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 274,
+      "fields": {
+        "influence": 23,
+        "description": "I falsely accused a foal of a wrongdoing that landed them in trouble, and ever since, I’m very careful to get my facts straight."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 275,
+      "fields": {
+        "influence": 23,
+        "description": "If assigned to be a lookout, I will remain at my post at all times until I am released from my duty."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 276,
+      "fields": {
+        "influence": 23,
+        "description": "Being alert means relying on more than just your eyes."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 277,
+      "fields": {
+        "influence": 24,
+        "description": "I want to learn how to drive every type of vehicle that exists."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 278,
+      "fields": {
+        "influence": 24,
+        "description": "I’m secretly fearful of flying vehicles."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 279,
+      "fields": {
+        "influence": 24,
+        "description": "Why walk when you can drive?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 280,
+      "fields": {
+        "influence": 24,
+        "description": "I love trains so much that I have a miniature train collection set up in my cottage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 281,
+      "fields": {
+        "influence": 24,
+        "description": "If I can’t drive, I will always call “shotgun” to ride up front."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 282,
+      "fields": {
+        "influence": 24,
+        "description": "A few years ago, I crashed a carriage and ran from the scene. To this day, nopony knows."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 283,
+      "fields": {
+        "influence": 24,
+        "description": "I like to talk shop about vehicle mechanics and how they work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 284,
+      "fields": {
+        "influence": 24,
+        "description": "I get nervous when somepony else is driving and feel like I will always do a better job."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 285,
+      "fields": {
+        "influence": 24,
+        "description": "Driving is soothing to me and a form of self-care."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 286,
+      "fields": {
+        "influence": 24,
+        "description": "One day I’ll save up enough bits to buy the latest carriage model."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 287,
+      "fields": {
+        "influence": 24,
+        "description": "It bothers me when ponies don’t take care of their vehicles."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 288,
+      "fields": {
+        "influence": 24,
+        "description": "I once spent a summer as a chariot driver for a famous pony, and it was the best summer of my life."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 289,
+      "fields": {
+        "influence": 25,
+        "description": "I never want to grow up."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 290,
+      "fields": {
+        "influence": 25,
+        "description": "I wish I looked older than I am so others would take me more seriously."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 291,
+      "fields": {
+        "influence": 25,
+        "description": "I am embarrassed that I can’t discover my Cutie Mark."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 292,
+      "fields": {
+        "influence": 25,
+        "description": "I’m on the lookout for a mentor who can help me figure out the pony I want to be."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 293,
+      "fields": {
+        "influence": 25,
+        "description": "I enjoy learning new hobbies but can never stick with one."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 294,
+      "fields": {
+        "influence": 25,
+        "description": "I have trouble making friends with ponies my age."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 295,
+      "fields": {
+        "influence": 25,
+        "description": "I get bored easily at school."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 296,
+      "fields": {
+        "influence": 25,
+        "description": "I’m a fast learner and more intellectually advanced compared to other ponies in my age group."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 297,
+      "fields": {
+        "influence": 25,
+        "description": "I’m the youngest in a family of multiple siblings, and I often don’t feel seen or heard."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 298,
+      "fields": {
+        "influence": 25,
+        "description": "I aspire to become a leader in my chosen field in a big-shot town like Manehattan or Fillydelphia."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 299,
+      "fields": {
+        "influence": 25,
+        "description": "I once painted a Cutie Mark on myself to look older."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 300,
+      "fields": {
+        "influence": 25,
+        "description": "I’m afraid that when I get my Cutie Mark, it will be the wrong one."
+      }
+    }
+  ],
+  "HangUp": [
+    {
+      "model": "charactercreator.hangup",
+      "pk": 1,
+      "fields": {
+        "influence": 1,
+        "name": "Wanderlust",
+        "description": "Laying down roots isn’t for you. If you roll the same non-conflict Skill Test in the same location more than once in a day, you suffer Snag every other time."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 2,
+      "fields": {
+        "influence": 2,
+        "name": "Bad with People",
+        "description": "When communicating with non-animals you have only just met, you suffer a \r\n↓1 penalty."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 3,
+      "fields": {
+        "influence": 3,
+        "name": "Artistic Blindness",
+        "description": "You sometimes get absorbed by your work and miss what’s going on around you. You suffer Snag on Smarts and Social Skill Tests unrelated to your art while you are actively involved with your art."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 4,
+      "fields": {
+        "influence": 4,
+        "name": "Lost In a Good Book",
+        "description": "Researching a subject or searching for a book takes you twice as long as expected, as you keep getting distracted by how much you love books."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 5,
+      "fields": {
+        "influence": 5,
+        "name": "Longshot",
+        "description": "When you Fumble a Targeting Skill Test to kick an object, the object you kicked takes 1 Blunt Damage because you struck it so hard."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 6,
+      "fields": {
+        "influence": 6,
+        "name": "Spend Money to Make Money",
+        "description": "You suffer Snag on Wealth checks as your resources are tied up in your business."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 7,
+      "fields": {
+        "influence": 7,
+        "name": "Chatterbox",
+        "description": "You suffer Snag on Infiltration Skill Tests that involve stealth as you can never quite stay quiet enough, even talking to yourself if no one is around."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 8,
+      "fields": {
+        "influence": 8,
+        "name": "Out of Touch",
+        "description": "You filter reality through the lens of your art, obscuring your perception of the way things actually work. You suffer Snag on your first non-Performance Skill Test of each day."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 9,
+      "fields": {
+        "influence": 9,
+        "name": "Laypony Terms",
+        "description": "Other ponies find you hard to understand. When you use Technology instead of a Social Essence Skill, you suffer Snag."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 10,
+      "fields": {
+        "influence": 10,
+        "name": "Fleeting Energy",
+        "description": "When you push yourself to your limit, you need a break to recover. After you use the Heavy Hitter Influence’s Force Perk, you suffer ↓1 on Strength based Skill Tests until the end of your next turn."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 11,
+      "fields": {
+        "influence": 11,
+        "name": "Jarring",
+        "description": "Your natural scowl leaves a bad first impression. You suffer Snag on Deception and Persuasion Skill Tests on anypony you haven’t met before the current scene."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 12,
+      "fields": {
+        "influence": 12,
+        "name": "Misled",
+        "description": "When you Lend Assistance to a creature and they fail at the Skill Test, they suffer ↓1 on their next Skill Test."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 13,
+      "fields": {
+        "influence": 13,
+        "name": "Fool Me Twice",
+        "description": "You suffer ↓1 on Deception Skill Tests that target a creature you already targeted with a Deception Skill Test."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 14,
+      "fields": {
+        "influence": 14,
+        "name": "Acrobatic Outlook",
+        "description": "You don’t see as many obstacles in your path as others and have trouble remembering not everycreature sees the world the same way. You cannot Lend Assistance on Speed based Skill Tests."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 15,
+      "fields": {
+        "influence": 15,
+        "name": "Fun Exhaustion",
+        "description": "Too much noise and excitement can get very wearing. Once you have used your Party Power Perk once in the day, any subsequent uses annoy everyone. You still gain the Friendship Point, but you cannot assist or be assisted by anyone else for the rest of the scene/encounter."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 16,
+      "fields": {
+        "influence": 16,
+        "name": "Don't Know Your Own Strength",
+        "description": "You are super strong, even when you don’t want to be. You suffer ↓1 on Speed skills when you try to do something delicate."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 17,
+      "fields": {
+        "influence": 17,
+        "name": "Sensitive",
+        "description": "You’re more aware than most of the strain on your hooves. When you take Damage, you also suffer Snag on Skill Tests for the next round. You can expend one of your daily uses of Detail Oriented to ignore this effect for one round."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 18,
+      "fields": {
+        "influence": 18,
+        "name": "Betrayal",
+        "description": "If you Lend Assistance to a creature and they fail their Skill Test, you are no longer considered an ally for the purpose of using Perks and other abilities with the rest of the PCs. This lasts for the rest of the scene/encounter, or until one of the other PCs spends a Friendship Point to heal the breach of trust."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 19,
+      "fields": {
+        "influence": 19,
+        "name": "Competitive",
+        "description": "When you and an ally roll the same Skill Test, if your ally gets a higher result than you, you have Snag on your next Skill Test this scene."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 20,
+      "fields": {
+        "influence": 20,
+        "name": "Ambush Prone",
+        "description": "Enemy creatures targeting you when you’re surprised get Edge on attacks."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 21,
+      "fields": {
+        "influence": 21,
+        "name": "Celebrity Overdrive",
+        "description": "Looking this good tends to get you a lot of attention. At any social event, someone will always notice if you are about to leave and anything embarrassing you do will undoubtedly be noticed and commented on. You suffer ↓1 to Stealth Skill Tests in social situations."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 22,
+      "fields": {
+        "influence": 22,
+        "name": "Outfoxed",
+        "description": "When you fail an Infiltration Skill Test against another creature, that creature gains Edge on Skill Tests against you for the next round."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 23,
+      "fields": {
+        "influence": 23,
+        "name": "Misplaced Confidence",
+        "description": "When you Take in a Scene, if your Alertness Skill Test fails, you are Surprised for two rounds instead of one."
+      }
+    },
+    {
+      "model": "charactercreator.hangup",
+      "pk": 24,
+      "fields": {
+        "influence": 24,
+        "name": "Wheel Struggle",
+        "description": "When you are in a vehicle and you are not the driver, you suffer Snag on all Skill Tests."
+      }
+    }
+  ],
+  "Influence": [
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 1,
+      "fields": {
+        "influence": 1,
+        "description": "I’m looking for unique artifacts of Equestria to gain a better understanding of the ponies who came before me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 2,
+      "fields": {
+        "influence": 1,
+        "description": "I don’t need fancy stuff to get by – just show me to a nice clearing to camp for the night!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 3,
+      "fields": {
+        "influence": 1,
+        "description": "I love meeting new ponies and finding common ground with those different from me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 4,
+      "fields": {
+        "influence": 1,
+        "description": "I’ve had a life-long “friendly” rival who, for years, has been searching for the same rare item as me. I often wonder who will find it first."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 5,
+      "fields": {
+        "influence": 1,
+        "description": "My survival instinct and love of exploration inspires others to choose me as the leader during adventures outside of town."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 6,
+      "fields": {
+        "influence": 1,
+        "description": "Because of my travels, I know ponies in every town around Equestria, even if I don’t know how to immediately get in touch with them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 7,
+      "fields": {
+        "influence": 1,
+        "description": "When I see a pony or other creature in need of help, I will put everything aside to do so, even if it means derailing my own trip. After all, that’s just a new adventure!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 8,
+      "fields": {
+        "influence": 1,
+        "description": "It angers me when other ponies treat nature with disrespect. Pick up your litter!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 9,
+      "fields": {
+        "influence": 1,
+        "description": "Sometimes I wander into places I know I shouldn’t go, but I can’t help my curiosity and constant desire to see what’s just around the bend."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 10,
+      "fields": {
+        "influence": 1,
+        "description": "I’ll happily give somepony the small amounts of food I’ve managed to forage, but I’d rather teach them how to get some themselves so they know what to do when I’m not around."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 11,
+      "fields": {
+        "influence": 1,
+        "description": "I’m content on my own, but I’d rather share my travels with friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 12,
+      "fields": {
+        "influence": 1,
+        "description": "I love to share stories of my adventures, and I’ll admit that sometimes I over exaggerate certain parts for a captive audience."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 13,
+      "fields": {
+        "influence": 2,
+        "description": "There is nothing I wouldn’t do to help an animal in need."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 14,
+      "fields": {
+        "influence": 2,
+        "description": "Sometimes I feel that I have a closer bond with animals than I do other ponies."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 15,
+      "fields": {
+        "influence": 2,
+        "description": "I was separated from an animal friend years ago, and I hope one day to find them again."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 16,
+      "fields": {
+        "influence": 2,
+        "description": "Wild animals can sometimes seem scary, but they are really just misunderstood."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 17,
+      "fields": {
+        "influence": 2,
+        "description": "Anypony who mistreats a helpless animal instantly becomes my enemy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 18,
+      "fields": {
+        "influence": 2,
+        "description": "I will always try to resolve a conflict with an animal with kindness and understanding instead of force."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 19,
+      "fields": {
+        "influence": 2,
+        "description": "I like to watch how animals accomplish tasks, from building nests to storing food. Ponies can learn a lot from animals."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 20,
+      "fields": {
+        "influence": 2,
+        "description": "The sound of a cat purring or a bird’s tweet instantly puts a smile on my face, even when I’m in a sour mood."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 21,
+      "fields": {
+        "influence": 2,
+        "description": "No animal is insignificant, even down to the tiniest ant."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 22,
+      "fields": {
+        "influence": 2,
+        "description": "I sometimes wish I could escape everyday pony life and just live in the forest with my animal friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 23,
+      "fields": {
+        "influence": 2,
+        "description": "I got in trouble swiping food from our kitchen to feed a hungry animal that lived outside my home, and I’m still convinced I did the right thing."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 24,
+      "fields": {
+        "influence": 2,
+        "description": "I am drawn to animals that others usually are afraid of, such as snakes, spiders, and sharks. They need friends, too!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 25,
+      "fields": {
+        "influence": 3,
+        "description": "I love to make my own gifts to give to friends and new ponies I meet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 26,
+      "fields": {
+        "influence": 3,
+        "description": "Sometimes I get jealous of other ponies when I think their art is better than mine."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 27,
+      "fields": {
+        "influence": 3,
+        "description": "I use my power of wordsmithing to recite stories and speeches that inspire others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 28,
+      "fields": {
+        "influence": 3,
+        "description": "A piece of my art was auctioned off at an event by accident, and although the bits went to a good cause, I’m sad about not being able to keep it for my home."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 29,
+      "fields": {
+        "influence": 3,
+        "description": "A mean-spirited pony once told me my art wasn’t good enough, and now I’m selfconscious about my work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 30,
+      "fields": {
+        "influence": 3,
+        "description": "One of the highly respected citizens of Manehattan is a patron of my art, and I’m always working to make them their next piece."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 31,
+      "fields": {
+        "influence": 3,
+        "description": "I believe art should exist for its own beauty, and it doesn’t need to serve a purpose or send a message."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 32,
+      "fields": {
+        "influence": 3,
+        "description": "I use tools given to me by a great artist, and one day I’ll pass them down to a new aspiring artist."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 33,
+      "fields": {
+        "influence": 3,
+        "description": "I pump all of my feelings, good or bad, into my art."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 34,
+      "fields": {
+        "influence": 3,
+        "description": "It brings me great joy when my art makes people happy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 35,
+      "fields": {
+        "influence": 3,
+        "description": "I want ponies to look at my art on display and instantly recognize it as mine, so I try to be as unique as possible."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 36,
+      "fields": {
+        "influence": 3,
+        "description": "My muse strikes at the most inopportune times – usually in the middle of the night or while I am performing other important tasks!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 37,
+      "fields": {
+        "influence": 4,
+        "description": "One of my biggest life goals is to meet my favorite author."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 38,
+      "fields": {
+        "influence": 4,
+        "description": "I’ve always wanted to write my own book, but I am scared other ponies may not love it as much as I love the books that I read."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 39,
+      "fields": {
+        "influence": 4,
+        "description": "I own so many books that other ponies joke that I could start my own library. Maybe someday I will!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 40,
+      "fields": {
+        "influence": 4,
+        "description": "My friend once told me about a secret library somewhere in Equestria, and it has always been a dream of mine to try to find it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 41,
+      "fields": {
+        "influence": 4,
+        "description": "One of my biggest peeves is when people mistreat books. Don’t fold down the corners – use a bookmark!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 42,
+      "fields": {
+        "influence": 4,
+        "description": "When I’ve recently read a new book, it’s all I talk about for days on end."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 43,
+      "fields": {
+        "influence": 4,
+        "description": "Knowledge is the key to everything, so I read everything I can, you never know what will be useful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 44,
+      "fields": {
+        "influence": 4,
+        "description": "I will always remember the teacher who taught me to read, and I want to teach others in the same way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 45,
+      "fields": {
+        "influence": 4,
+        "description": "I don’t often admit it, but I look down on ponies who don’t like to read."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 46,
+      "fields": {
+        "influence": 4,
+        "description": "I often fail to pay attention to the tasks at hand because I’m secretly reading a book under the table instead."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 47,
+      "fields": {
+        "influence": 4,
+        "description": "My favorite rare book was damaged long ago, and I hope to someday find another copy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 48,
+      "fields": {
+        "influence": 4,
+        "description": "Forget dogs – a book is a pony’s best friend!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 49,
+      "fields": {
+        "influence": 5,
+        "description": "I make a game out of everything, including housework!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 50,
+      "fields": {
+        "influence": 5,
+        "description": "When I miss a shot, I’m extremely hard on myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 51,
+      "fields": {
+        "influence": 5,
+        "description": "I’ll stop whatever I’m doing to hit a target with a random object."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 52,
+      "fields": {
+        "influence": 5,
+        "description": "My older sibling taught me the proper way to take aim, and I’ll always remember that."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 53,
+      "fields": {
+        "influence": 5,
+        "description": "When speaking to others, I always use buckballing terms such as “hitting a target” or “aiming to succeed.”"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 54,
+      "fields": {
+        "influence": 5,
+        "description": "I prefer to stand back and take a ranged approach vs. getting into the thick of a situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 55,
+      "fields": {
+        "influence": 5,
+        "description": "I like to show off and do fancy tricks with my bucking, even in serious situations."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 56,
+      "fields": {
+        "influence": 5,
+        "description": "I injured a family member once by not looking before I bucked, and now I always take the time to aim and be sure of my target."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 57,
+      "fields": {
+        "influence": 5,
+        "description": "I made up my own game that requires bucking apples into pails set up in different configurations, and I try to teach it to everyone I meet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 58,
+      "fields": {
+        "influence": 5,
+        "description": "Sometimes I’ll miss on purpose to make my fellow ponies feel less intimidated by my skills."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 59,
+      "fields": {
+        "influence": 5,
+        "description": "I blame my misses on other ponies, distractions, or whatever I can to distract from my embarrassment."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 60,
+      "fields": {
+        "influence": 5,
+        "description": "I’ll use my bucking ability over any other way to take care of a situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 61,
+      "fields": {
+        "influence": 6,
+        "description": "The secret to success is hard work and preparation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 62,
+      "fields": {
+        "influence": 6,
+        "description": "I love to invest in and help with my friends’ endeavors."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 63,
+      "fields": {
+        "influence": 6,
+        "description": "My dream is to open franchised locations of my business all over Equestria."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 64,
+      "fields": {
+        "influence": 6,
+        "description": "I feel most empowered when I can make the decisions for my team."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 65,
+      "fields": {
+        "influence": 6,
+        "description": "Solving problems in a business takes teamwork and communication, and the same can be said about problems outside of business as well."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 66,
+      "fields": {
+        "influence": 6,
+        "description": "I celebrate the ideas of my employees and co-workers, often with cake!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 67,
+      "fields": {
+        "influence": 6,
+        "description": "My business is a dream I’ve had since I was a foal, and I take great pride in it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 68,
+      "fields": {
+        "influence": 6,
+        "description": "Keeping my business running and profitable is of high priority to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 69,
+      "fields": {
+        "influence": 6,
+        "description": "I donate 25% of the bits I make with my business to local charities."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 70,
+      "fields": {
+        "influence": 6,
+        "description": "I take pride in being the best in my line of work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 71,
+      "fields": {
+        "influence": 6,
+        "description": "Sometimes I let work take too much time from my friends and family."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 72,
+      "fields": {
+        "influence": 6,
+        "description": "I get grumpy when others don’t appreciate how much hard work I put into any job, both in and outside my career."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 73,
+      "fields": {
+        "influence": 7,
+        "description": "I have a hard time keeping secrets"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 74,
+      "fields": {
+        "influence": 7,
+        "description": "I’m often afraid that people judge me for talking too much."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 75,
+      "fields": {
+        "influence": 7,
+        "description": "I love gossip – the juicier the better! I always want somepony to spill the tea with me!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 76,
+      "fields": {
+        "influence": 7,
+        "description": "I find myself constantly jumping from one topic to another."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 77,
+      "fields": {
+        "influence": 7,
+        "description": "A great story told by a friend is better than any book or production you’ll see at Ponyville Theater!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 78,
+      "fields": {
+        "influence": 7,
+        "description": "Sometimes I feel that there are too many things to say and too little time to say it without leaving out something important!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 79,
+      "fields": {
+        "influence": 7,
+        "description": "I often interrupt others, usually realizing I’ve done so way too late."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 80,
+      "fields": {
+        "influence": 7,
+        "description": "Just because I’m a talker, doesn’t mean I’m not a good listener. And I am great at remembering details about conversations I’ve had."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 81,
+      "fields": {
+        "influence": 7,
+        "description": "I once talked my way out of a very scary situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 82,
+      "fields": {
+        "influence": 7,
+        "description": "My friends know that if they ever need somepony to talk to, I’m always here for them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 83,
+      "fields": {
+        "influence": 7,
+        "description": "I get impatient with ponies who don’t seem to pay attention to what I’m talking about."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 84,
+      "fields": {
+        "influence": 7,
+        "description": "My nickname in school was “Filly-buster,” because I never let my teachers get through a sentence without interrupting with additional facts on the topic."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 85,
+      "fields": {
+        "influence": 8,
+        "description": "I am too impulsive when trying to show off or impress others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 86,
+      "fields": {
+        "influence": 8,
+        "description": "Positive affirmation and feedback from others makes me feel like I can accomplish anything."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 87,
+      "fields": {
+        "influence": 8,
+        "description": "I’m always performing in some way when around others, I’m not comfortable being myself unless I’m alone."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 88,
+      "fields": {
+        "influence": 8,
+        "description": "I suffer from imposter syndrome and sometimes wonder why people think I’m good at what I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 89,
+      "fields": {
+        "influence": 8,
+        "description": "I was very unpopular growing up, so I use my newfound stardom to include others who are often ignored."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 90,
+      "fields": {
+        "influence": 8,
+        "description": "If I did something awesome and nopony was around to see it, did I make a sound?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 91,
+      "fields": {
+        "influence": 8,
+        "description": "I often need to be the center of attention, even when it isn’t my place or turn."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 92,
+      "fields": {
+        "influence": 8,
+        "description": "I can be on stage all day long, but I’m very shy in one-on-one conversations."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 93,
+      "fields": {
+        "influence": 8,
+        "description": "I once met a celebrity who gave me some great advice. My goal is to perform on stage with them someday!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 94,
+      "fields": {
+        "influence": 8,
+        "description": "I secretly have major stage fright, but I always fight through it and have never let anypony but my closest friends know."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 95,
+      "fields": {
+        "influence": 8,
+        "description": "While I love to perform, when I’m not performing in my main medium, I feel uncomfortable and like I’m not good enough."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 96,
+      "fields": {
+        "influence": 8,
+        "description": "I’m looking to get my big break to become a superstar!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 97,
+      "fields": {
+        "influence": 9,
+        "description": "I have a habit of looking at an object and getting lost in ideas of how to improve it using the latest scientific and technological findings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 98,
+      "fields": {
+        "influence": 9,
+        "description": "While I love the idea of machines helping us accomplish our daily tasks in a more efficient manner, I still believe we can’t rely on them to do our thinking for us."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 99,
+      "fields": {
+        "influence": 9,
+        "description": "My speech is loaded with jargon that many other ponies don’t understand."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 100,
+      "fields": {
+        "influence": 9,
+        "description": "It is important to look to past mistakes in order to better prepare for future challenges."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 101,
+      "fields": {
+        "influence": 9,
+        "description": "I worry about the future and how ponies with less-than-generous motivations will use technology for their own greed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 102,
+      "fields": {
+        "influence": 9,
+        "description": "I use my futurist ideas to help think of ways to maintain a sustainable future for all of Equestria, without the need to worry about the quality of our food, water, or resources."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 103,
+      "fields": {
+        "influence": 9,
+        "description": "My ability to make future projections allows me to help my friends be ready for the unexpected, determine strategic actions, and build long-range plans of action, when needed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 104,
+      "fields": {
+        "influence": 9,
+        "description": "Whatever happens today, good or bad, will be ok. There is always a tomorrow."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 105,
+      "fields": {
+        "influence": 9,
+        "description": "I tend to flip-flop between being optimistic about a future utopia, highlighting ways to perfect society, and an anxious doomsday prophet, pointing out what could go wrong."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 106,
+      "fields": {
+        "influence": 9,
+        "description": "I get upset when I think about any creature who would damage our natural resources or pollute Equestria, as I see that abuse leading to detrimental environmental consequences in the future."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 107,
+      "fields": {
+        "influence": 9,
+        "description": "I don’t care about the academic side of futurism; I just want to wear the trendiest clothes, listen to the coolest music, and eat the now-est food."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 108,
+      "fields": {
+        "influence": 9,
+        "description": "When I’m working on a new idea, philosophy, or gadget, I sometimes don’t leave my home for days. Some ponies have called me a hermit, but I just get into a “zone” that I can’t shut off."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 109,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I have the impulse to use my hooves to get past a problem, when I really should be using my brain."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 110,
+      "fields": {
+        "influence": 10,
+        "description": "Training and building my muscles is an important priority for me, and the endorphin rush gets me pumped up for action!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 111,
+      "fields": {
+        "influence": 10,
+        "description": "Despite my ability to do so, fighting is always a last resort when I’m trying to solve a conflict."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 112,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I forget my own strength and am too rough with others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 113,
+      "fields": {
+        "influence": 10,
+        "description": "Hoof wrestling is one of my favorite pastimes, and I often challenge others to a match to solve disagreements. Who gets to decide what’s for dinner? Let’s hoof wrestle for it!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 114,
+      "fields": {
+        "influence": 10,
+        "description": "My strong frame may look intimidating, but on the inside, I’m friendly, helpful, and kind."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 115,
+      "fields": {
+        "influence": 10,
+        "description": "I’ve acted as a personal bodyguard to a few celebrities in Equestria."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 116,
+      "fields": {
+        "influence": 10,
+        "description": "When I was younger and not as even-tempered, I got in trouble at school for hoof fighting."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 117,
+      "fields": {
+        "influence": 10,
+        "description": "I broke my friend’s favorite household object by accident due to my overexertion of strength, and I vow to find them a replacement."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 118,
+      "fields": {
+        "influence": 10,
+        "description": "Sometimes I feel guilty or anxious if I haven’t exercised that day."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 119,
+      "fields": {
+        "influence": 10,
+        "description": "For years, everypony has been telling me I should become a buckballer, since my kicks are so strong, but I’m just not that interested in sports."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 120,
+      "fields": {
+        "influence": 10,
+        "description": "I once kicked somepony in the face by accident, and they lost a permanent tooth. I’ll never forgive myself for not paying attention to my surroundings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 121,
+      "fields": {
+        "influence": 11,
+        "description": "I often feel like nobody understands me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 122,
+      "fields": {
+        "influence": 11,
+        "description": "My physical appearance gives an impression that is different than who I am inside."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 123,
+      "fields": {
+        "influence": 11,
+        "description": "I have trouble explaining how I really feel, and everything I say comes out as if I’m angry."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 124,
+      "fields": {
+        "influence": 11,
+        "description": "Other ponies think I’m arrogant, but I’m really just trying to be helpful with my knowledge."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 125,
+      "fields": {
+        "influence": 11,
+        "description": "I enjoy when other creatures are intimidated by me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 126,
+      "fields": {
+        "influence": 11,
+        "description": "I use my intensity to manipulate situations to my advantage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 127,
+      "fields": {
+        "influence": 11,
+        "description": "I grew up alone for the most part, so I tend to push people away until I learn to trust them"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 128,
+      "fields": {
+        "influence": 11,
+        "description": "I express my intensity through the music I listen to."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 129,
+      "fields": {
+        "influence": 11,
+        "description": "I enjoy engaging in physical activity to relieve my stress."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 130,
+      "fields": {
+        "influence": 11,
+        "description": "A fun day with friends helps to subdue my intense feelings."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 131,
+      "fields": {
+        "influence": 11,
+        "description": "When I get frustrated, my intense nature expresses that frustration as anger."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 132,
+      "fields": {
+        "influence": 11,
+        "description": "I meditate each morning to help feel less intense and intimidating"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 133,
+      "fields": {
+        "influence": 12,
+        "description": "Mentoring others about the things I’m passionate about is truly fulfilling."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 134,
+      "fields": {
+        "influence": 12,
+        "description": "I have trouble saying no when ponies ask me for help."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 135,
+      "fields": {
+        "influence": 12,
+        "description": "Some ponies think I’m bossy, but I am just trying to help them do things the right way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 136,
+      "fields": {
+        "influence": 12,
+        "description": "I value being a confident mentor to others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 137,
+      "fields": {
+        "influence": 12,
+        "description": "I often give unsolicited advice."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 138,
+      "fields": {
+        "influence": 12,
+        "description": "I will always take the time to teach others anything I’ve learned that they also want to know."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 139,
+      "fields": {
+        "influence": 12,
+        "description": "The best mentor creates students that surpass them in skill."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 140,
+      "fields": {
+        "influence": 12,
+        "description": "Only those who are well-educated have the ability to make an informed choice."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 141,
+      "fields": {
+        "influence": 12,
+        "description": "I am secretly jealous of one of my mentees."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 142,
+      "fields": {
+        "influence": 12,
+        "description": "I feel resentful when a mentee doesn’t appreciate my time."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 143,
+      "fields": {
+        "influence": 12,
+        "description": "While I have knowledge in certain areas, I still feel like I have a lot to learn."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 144,
+      "fields": {
+        "influence": 12,
+        "description": "I feel better when teaching a group of friends than hoarding knowledge to myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 145,
+      "fields": {
+        "influence": 13,
+        "description": "I’m slippery with the truth, except when speaking with my best friends and family."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 146,
+      "fields": {
+        "influence": 13,
+        "description": "I’ll do what I have to in order to be successful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 147,
+      "fields": {
+        "influence": 13,
+        "description": "I was tricked out of my family fortune, and now I’ll use those same tricks to get it back."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 148,
+      "fields": {
+        "influence": 13,
+        "description": "I love to gamble and will make impulsive bets, relying on my sleight of hoof to cheat my way into a win."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 149,
+      "fields": {
+        "influence": 13,
+        "description": "Who can say that Snake Oil doesn’t really work?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 150,
+      "fields": {
+        "influence": 13,
+        "description": "When caught in a lie, my first instinct is to run away."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 151,
+      "fields": {
+        "influence": 13,
+        "description": "I once put the blame on my best friend, and I will never forgive myself."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 152,
+      "fields": {
+        "influence": 13,
+        "description": "I was forced into a life of hardship at a young age."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 153,
+      "fields": {
+        "influence": 13,
+        "description": "I like to “game the system” to get what I want."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 154,
+      "fields": {
+        "influence": 13,
+        "description": "I can talk my way out of almost any sticky situation."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 155,
+      "fields": {
+        "influence": 13,
+        "description": "I once sold a product under false pretenses that made another pony sick. After that, I draw the line at selling counterfeit goods."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 156,
+      "fields": {
+        "influence": 13,
+        "description": "My biggest enemy forgave me for tricking them, and I’ve learned the value of forgiveness."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 157,
+      "fields": {
+        "influence": 14,
+        "description": "I am so flexible that I can move my body like a contortionist, which freaks some ponies out."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 158,
+      "fields": {
+        "influence": 14,
+        "description": "Some day, I want to compete in gymnastics in the Equestria Games."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 159,
+      "fields": {
+        "influence": 14,
+        "description": "I’m very athletic but I don’t like to show off my skills, competition and athletic displays just seem a bit silly to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 160,
+      "fields": {
+        "influence": 14,
+        "description": "My family comes from a long line of circus performers."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 161,
+      "fields": {
+        "influence": 14,
+        "description": "Why walk when you can cartwheel?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 162,
+      "fields": {
+        "influence": 14,
+        "description": "Acrobatics seems like a solo talent, but so much relies on a good partner who understands balance."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 163,
+      "fields": {
+        "influence": 14,
+        "description": "I’ll bend over backwards for a friend. Get it?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 164,
+      "fields": {
+        "influence": 14,
+        "description": "I broke my leg while trying an acrobatic trick, and every once in a while, it acts up on me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 165,
+      "fields": {
+        "influence": 14,
+        "description": "I’m quick to tumble both into and out of trouble."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 166,
+      "fields": {
+        "influence": 14,
+        "description": "I want to take my talents to Las Pegasus and join one of the shows."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 167,
+      "fields": {
+        "influence": 14,
+        "description": "I know I’ve tried my hardest when my muscles ache."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 168,
+      "fields": {
+        "influence": 14,
+        "description": "I always strive to put my skills to the best use for my whole team."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 169,
+      "fields": {
+        "influence": 15,
+        "description": "I just want everyone to have fun!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 170,
+      "fields": {
+        "influence": 15,
+        "description": "Life is better when it’s loud."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 171,
+      "fields": {
+        "influence": 15,
+        "description": "I love a party but no one else seems to want them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 172,
+      "fields": {
+        "influence": 15,
+        "description": "I wish someone would throw a party for me one day."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 173,
+      "fields": {
+        "influence": 15,
+        "description": "The best thing about parties is meeting new people."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 174,
+      "fields": {
+        "influence": 15,
+        "description": "It’s not a party without games and challenges."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 175,
+      "fields": {
+        "influence": 15,
+        "description": "A party can happen at any time, so I must always be ready."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 176,
+      "fields": {
+        "influence": 15,
+        "description": "It’s not a real party unless all my friends are there."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 177,
+      "fields": {
+        "influence": 15,
+        "description": "A party is a great way to avoid thinking about things that upset you."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 178,
+      "fields": {
+        "influence": 15,
+        "description": "I like to make every party memorable in some way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 179,
+      "fields": {
+        "influence": 15,
+        "description": "Everyone loves a good party (even when they say they don’t…)"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 180,
+      "fields": {
+        "influence": 15,
+        "description": "No one throws a better party than me!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 181,
+      "fields": {
+        "influence": 16,
+        "description": "Sometimes I feel bad that ponies only look to me when they need me to help them with my strength and not my good ideas."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 182,
+      "fields": {
+        "influence": 16,
+        "description": "I like to use my brawn to build houses and other large projects as a creative outlet."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 183,
+      "fields": {
+        "influence": 16,
+        "description": "I’m eager to help other ponies who are not as big and strong as I am, just as I’m glad when they help me with things I’m not as good at doing. That’s what friendship is all about"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 184,
+      "fields": {
+        "influence": 16,
+        "description": "I come from a long line of haulers and lifters, and it’s a family tradition to continue that type of work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 185,
+      "fields": {
+        "influence": 16,
+        "description": "My size and strength cause me to be hungry all the time!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 186,
+      "fields": {
+        "influence": 16,
+        "description": "I prefer to walk than to take a carriage or train to my destination."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 187,
+      "fields": {
+        "influence": 16,
+        "description": "I enjoy putting in a hard day’s work of heavy labor, and it makes me feel accomplished that my own hooves can get things done."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 188,
+      "fields": {
+        "influence": 16,
+        "description": "I was the smallest in my family when I was young, and my siblings made fun of me for it. Even though I’m big and strong now, I can’t forget how they teased me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 189,
+      "fields": {
+        "influence": 16,
+        "description": "I will use my physical form to block or protect an innocent creature from danger. I can take it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 190,
+      "fields": {
+        "influence": 16,
+        "description": "I often think about how I wish I was as strong on the inside as I am on the outside."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 191,
+      "fields": {
+        "influence": 16,
+        "description": "If I had a bit for everypony who has told me that they owe me a favor for helping them with my strength, well…I’d have a lot of bits!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 192,
+      "fields": {
+        "influence": 16,
+        "description": "I won a weightlifting trophy at the Iron Pony competition a few years ago, and nopony has broken my record yet!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 193,
+      "fields": {
+        "influence": 17,
+        "description": "Conformity is important to me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 194,
+      "fields": {
+        "influence": 17,
+        "description": "If I don’t do something perfectly right, I try again and again until I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 195,
+      "fields": {
+        "influence": 17,
+        "description": "I never feel like I am good enough at what I do."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 196,
+      "fields": {
+        "influence": 17,
+        "description": "I love when everything works out as I planned."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 197,
+      "fields": {
+        "influence": 17,
+        "description": "Messy environments give me anxiety."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 198,
+      "fields": {
+        "influence": 17,
+        "description": "My parent always said I should be a surgeon, since I have such a steady hoof."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 199,
+      "fields": {
+        "influence": 17,
+        "description": "I enjoy crafts that require fine details."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 200,
+      "fields": {
+        "influence": 17,
+        "description": "Other ponies look to me when they need help hanging pictures straight and the like."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 201,
+      "fields": {
+        "influence": 17,
+        "description": "I have excellent penmanship."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 202,
+      "fields": {
+        "influence": 17,
+        "description": "I pamper my hooves whenever possible, since I rely on them for my excellent fine motor skills."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 203,
+      "fields": {
+        "influence": 17,
+        "description": "“Good from far, but far from good” is a phrase I will never agree with."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 204,
+      "fields": {
+        "influence": 17,
+        "description": "I love to learn new skills that showcase my talent with precision."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 205,
+      "fields": {
+        "influence": 18,
+        "description": "I’m an excellent judge of character, but it is difficult for others to “read” me."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 206,
+      "fields": {
+        "influence": 18,
+        "description": "While I’m usually great at making decisions, if I can’t quite choose, I’ll flip a coin."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 207,
+      "fields": {
+        "influence": 18,
+        "description": "I always trust my gut."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 208,
+      "fields": {
+        "influence": 18,
+        "description": "I take a long time to analyze a situation and determine what action to take."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 209,
+      "fields": {
+        "influence": 18,
+        "description": "Others turn to me for advice, and I enjoy giving it to them."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 210,
+      "fields": {
+        "influence": 18,
+        "description": "My mentor taught me that one wrong choice can impact many lives, so I strive to always think how my actions will affect others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 211,
+      "fields": {
+        "influence": 18,
+        "description": "I get frustrated with ponies who can’t make a decision."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 212,
+      "fields": {
+        "influence": 18,
+        "description": "I’m shrewd as a serpent, innocent as a dove."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 213,
+      "fields": {
+        "influence": 18,
+        "description": "I pride myself on being able to assess a situation quickly and to use this understanding to my advantage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 214,
+      "fields": {
+        "influence": 18,
+        "description": "I’m shrewd in business but a sucker when it comes to my friends."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 215,
+      "fields": {
+        "influence": 18,
+        "description": "I have a tactical mind for negotiation and strategy."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 216,
+      "fields": {
+        "influence": 18,
+        "description": "I’m not above using deceit or deviousness to get my own way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 217,
+      "fields": {
+        "influence": 19,
+        "description": "Talent wins games, but teamwork wins championships."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 218,
+      "fields": {
+        "influence": 19,
+        "description": "I’m harder on myself when I make a mistake than I am on my teammates."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 219,
+      "fields": {
+        "influence": 19,
+        "description": "My competitive nature sometimes irks other ponies."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 220,
+      "fields": {
+        "influence": 19,
+        "description": "I often prioritize buckball ahead of other important parts of my life."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 221,
+      "fields": {
+        "influence": 19,
+        "description": "My former coach instilled a drive for perfection in me that sometimes seems impossible to obtain."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 222,
+      "fields": {
+        "influence": 19,
+        "description": "I don’t care who wins the game, as long as everypony is having fun."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 223,
+      "fields": {
+        "influence": 19,
+        "description": "I’m always the first pony to suggest an after-practice hangout, with snacks!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 224,
+      "fields": {
+        "influence": 19,
+        "description": "I broke my leg playing buckball when I was just a foal, and it never quite healed right."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 225,
+      "fields": {
+        "influence": 19,
+        "description": "I was caught cheating in a buckball game once, and the pony who saw it has never spoken up about it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 226,
+      "fields": {
+        "influence": 19,
+        "description": "I will make a game out of any minimal task, whether it is throwing away a piece of trash or cooking a meal."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 227,
+      "fields": {
+        "influence": 19,
+        "description": "Practice makes perfect, in buckball and everything else."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 228,
+      "fields": {
+        "influence": 19,
+        "description": "I know I’m good at sports, but sometimes I wish ponies would appreciate me for my other talents."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 229,
+      "fields": {
+        "influence": 20,
+        "description": "I tend to run into action before a plan is fully formed."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 230,
+      "fields": {
+        "influence": 20,
+        "description": "I use my initiative to determine the course of action by my entire party"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 231,
+      "fields": {
+        "influence": 20,
+        "description": "I often speak before I think."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 232,
+      "fields": {
+        "influence": 20,
+        "description": "Even though I’m quicker than others, I’ll always ask their opinion on what I should do before acting."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 233,
+      "fields": {
+        "influence": 20,
+        "description": "My mentor taught me that when you take initiative, you’re responsible for modeling proper actions to others."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 234,
+      "fields": {
+        "influence": 20,
+        "description": "I get upset when I decide on a plan, and another pony does something to contradict it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 235,
+      "fields": {
+        "influence": 20,
+        "description": "Even though I move quickly, I speak very slowly."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 236,
+      "fields": {
+        "influence": 20,
+        "description": "I’ll never turn down a challenge to a race of any kind."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 237,
+      "fields": {
+        "influence": 20,
+        "description": "I once acted too impulsively and have a permanent scar as a reminder."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 238,
+      "fields": {
+        "influence": 20,
+        "description": "I beat my training partner in a race at the Equestria Games for the gold, and now they don’t talk to me anymore."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 239,
+      "fields": {
+        "influence": 20,
+        "description": "The early bird gets the worm."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 240,
+      "fields": {
+        "influence": 20,
+        "description": "I never look before I leap."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 241,
+      "fields": {
+        "influence": 21,
+        "description": "Fashion is for everyone."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 242,
+      "fields": {
+        "influence": 21,
+        "description": "I don’t have time for people who don’t take time to look good."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 243,
+      "fields": {
+        "influence": 21,
+        "description": "Everyone can look beautiful."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 244,
+      "fields": {
+        "influence": 21,
+        "description": "If I’m not well dressed, I don’t leave the house."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 245,
+      "fields": {
+        "influence": 21,
+        "description": "I love to discover new styles and clothing traditions."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 246,
+      "fields": {
+        "influence": 21,
+        "description": "Good fashion is all about the accessories."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 247,
+      "fields": {
+        "influence": 21,
+        "description": "There is no such thing as too much fashion!"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 248,
+      "fields": {
+        "influence": 21,
+        "description": "I lead fashion, I don’t follow it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 249,
+      "fields": {
+        "influence": 21,
+        "description": "My style doesn’t follow fashion; it is as timeless as I am."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 250,
+      "fields": {
+        "influence": 21,
+        "description": "Dark and mysterious colors are best."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 251,
+      "fields": {
+        "influence": 21,
+        "description": "Bright and exciting colors are best."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 252,
+      "fields": {
+        "influence": 21,
+        "description": "I can make anything look good."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 253,
+      "fields": {
+        "influence": 22,
+        "description": "I enjoy putting on disguises and pretending to be somepony else."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 254,
+      "fields": {
+        "influence": 22,
+        "description": "Diversions are just as important as stealth."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 255,
+      "fields": {
+        "influence": 22,
+        "description": "I like to speak in different accents to hide my identity, even if I’m not the best at it."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 256,
+      "fields": {
+        "influence": 22,
+        "description": "Even my closest friends don’t know my real name."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 257,
+      "fields": {
+        "influence": 22,
+        "description": "I was once a member of a secret spy organization."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 258,
+      "fields": {
+        "influence": 22,
+        "description": "My biggest fear is slipping up when I’m supposed to be “somepony else.”"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 259,
+      "fields": {
+        "influence": 22,
+        "description": "I think I’m a lot sneakier than I really am."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 260,
+      "fields": {
+        "influence": 22,
+        "description": "My tricky nature has made me paranoid of others, and I always question the motives of strangers."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 261,
+      "fields": {
+        "influence": 22,
+        "description": "When one hoof is doing something in the open, the other is always hiding something."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 262,
+      "fields": {
+        "influence": 22,
+        "description": "Even though I’m good at it, it makes me feel bad to lie to anyone, even with good intentions."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 263,
+      "fields": {
+        "influence": 22,
+        "description": "I sometimes get so caught up in my own deceptions that I forget what the real truth is."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 264,
+      "fields": {
+        "influence": 22,
+        "description": "I will never deceive anyone who isn’t evil."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 265,
+      "fields": {
+        "influence": 23,
+        "description": "Trust nopony."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 266,
+      "fields": {
+        "influence": 23,
+        "description": "When out on an adventure, someone needs to keep watch at all times."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 267,
+      "fields": {
+        "influence": 23,
+        "description": "I hate surprises."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 268,
+      "fields": {
+        "influence": 23,
+        "description": "I get little sleep because I’m always worried something bad might happen."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 269,
+      "fields": {
+        "influence": 23,
+        "description": "I like to keep a record of the things that happen in my neighborhood, looking for patterns in other ponies’ behaviors."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 270,
+      "fields": {
+        "influence": 23,
+        "description": "Staying alert to my surroundings is the key to subverting danger."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 271,
+      "fields": {
+        "influence": 23,
+        "description": "I’m extremely detail oriented and can recall the previous day’s events perfectly."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 272,
+      "fields": {
+        "influence": 23,
+        "description": "I always look twice at anything, just in case I miss something the first time."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 273,
+      "fields": {
+        "influence": 23,
+        "description": "I’m always on the lookout for trouble that may be coming our way."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 274,
+      "fields": {
+        "influence": 23,
+        "description": "I falsely accused a foal of a wrongdoing that landed them in trouble, and ever since, I’m very careful to get my facts straight."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 275,
+      "fields": {
+        "influence": 23,
+        "description": "If assigned to be a lookout, I will remain at my post at all times until I am released from my duty."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 276,
+      "fields": {
+        "influence": 23,
+        "description": "Being alert means relying on more than just your eyes."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 277,
+      "fields": {
+        "influence": 24,
+        "description": "I want to learn how to drive every type of vehicle that exists."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 278,
+      "fields": {
+        "influence": 24,
+        "description": "I’m secretly fearful of flying vehicles."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 279,
+      "fields": {
+        "influence": 24,
+        "description": "Why walk when you can drive?"
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 280,
+      "fields": {
+        "influence": 24,
+        "description": "I love trains so much that I have a miniature train collection set up in my cottage."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 281,
+      "fields": {
+        "influence": 24,
+        "description": "If I can’t drive, I will always call “shotgun” to ride up front."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 282,
+      "fields": {
+        "influence": 24,
+        "description": "A few years ago, I crashed a carriage and ran from the scene. To this day, nopony knows."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 283,
+      "fields": {
+        "influence": 24,
+        "description": "I like to talk shop about vehicle mechanics and how they work."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 284,
+      "fields": {
+        "influence": 24,
+        "description": "I get nervous when somepony else is driving and feel like I will always do a better job."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 285,
+      "fields": {
+        "influence": 24,
+        "description": "Driving is soothing to me and a form of self-care."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 286,
+      "fields": {
+        "influence": 24,
+        "description": "One day I’ll save up enough bits to buy the latest carriage model."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 287,
+      "fields": {
+        "influence": 24,
+        "description": "It bothers me when ponies don’t take care of their vehicles."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 288,
+      "fields": {
+        "influence": 24,
+        "description": "I once spent a summer as a chariot driver for a famous pony, and it was the best summer of my life."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 289,
+      "fields": {
+        "influence": 25,
+        "description": "I never want to grow up."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 290,
+      "fields": {
+        "influence": 25,
+        "description": "I wish I looked older than I am so others would take me more seriously."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 291,
+      "fields": {
+        "influence": 25,
+        "description": "I am embarrassed that I can’t discover my Cutie Mark."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 292,
+      "fields": {
+        "influence": 25,
+        "description": "I’m on the lookout for a mentor who can help me figure out the pony I want to be."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 293,
+      "fields": {
+        "influence": 25,
+        "description": "I enjoy learning new hobbies but can never stick with one."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 294,
+      "fields": {
+        "influence": 25,
+        "description": "I have trouble making friends with ponies my age."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 295,
+      "fields": {
+        "influence": 25,
+        "description": "I get bored easily at school."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 296,
+      "fields": {
+        "influence": 25,
+        "description": "I’m a fast learner and more intellectually advanced compared to other ponies in my age group."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 297,
+      "fields": {
+        "influence": 25,
+        "description": "I’m the youngest in a family of multiple siblings, and I often don’t feel seen or heard."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 298,
+      "fields": {
+        "influence": 25,
+        "description": "I aspire to become a leader in my chosen field in a big-shot town like Manehattan or Fillydelphia."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 299,
+      "fields": {
+        "influence": 25,
+        "description": "I once painted a Cutie Mark on myself to look older."
+      }
+    },
+    {
+      "model": "charactercreator.backgroundbond",
+      "pk": 300,
+      "fields": {
+        "influence": 25,
+        "description": "I’m afraid that when I get my Cutie Mark, it will be the wrong one."
+      }
+    }
+  ],
+  "Perk": [
+    {
+      "model": "charactercreator.perk",
+      "pk": 1,
+      "fields": {
+        "name": "Wild Tales",
+        "description": "You’re passionate about exploring new \r\nplaces, environments, and cultures, and have a \r\ndeep wealth of stories about your adventures to \r\ndraw from. Once per scene, when you tell a short \r\nstory about your experiences, you gain Edge on a \r\nSmarts or Social Skill Test.",
+        "prerequisite": "",
+        "influence": 1
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 2,
+      "fields": {
+        "name": "Empathic Communication",
+        "description": "You speak to non speaking animals as though you share a language and can communicate more complicated ideas with them when rolling Animal Handling Skill Tests.",
+        "prerequisite": "",
+        "influence": 2
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 3,
+      "fields": {
+        "name": "Express Yourself",
+        "description": "You are passionate about your art style, and gain Edge on Social and Smarts Skill Tests where your art style applies.",
+        "prerequisite": "",
+        "influence": 3
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 4,
+      "fields": {
+        "name": "Bibliophile",
+        "description": "You know your way around a library. When researching a subject or searching for a book, whether looking for books on a certain topic, a specific title, or even based on an excerpt, you gain Edge on Skill Tests.",
+        "prerequisite": "",
+        "influence": 4
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 5,
+      "fields": {
+        "name": "On Target",
+        "description": "Once per round, you can spend a free action to use Targeting to perform a simple task from a distance of up to 60 feet. For example, if you need to place a basket of apples on a cart, you can buck the basket with a Targeting Skill Test as a Free action.",
+        "prerequisite": "",
+        "influence": 5
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 6,
+      "fields": {
+        "name": "Career",
+        "description": "Choose a profession. It could be personal (like a shop owner or farmer) or part of a larger company (like a corporate president or talent agent). Then, choose an appropriate Skill related to that profession, such as Culture, Persuasion, Technology, or Streetwise. If a Skill Test applies to your career, you can substitute the required Skill with your chosen career appropriate Skill.",
+        "prerequisite": "",
+        "influence": 6
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 7,
+      "fields": {
+        "name": "Chatter Flashback",
+        "description": "You remember something interesting someone said once. Three times per day, you can substitute a Smarts Skill with Persuasion for a Skill Test.",
+        "prerequisite": "",
+        "influence": 7
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 8,
+      "fields": {
+        "name": "Wow the Audience",
+        "description": "You gain ↑1 on Performance Skill Tests if 10 or more creatures are present and observing you. You gain an additional ↑1 if 100 or more creatures are present and observing you, and another ↑1 if 1000 or more creatures are present and observing you.",
+        "prerequisite": "",
+        "influence": 8
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 9,
+      "fields": {
+        "name": "Reverse Engineer",
+        "description": "Three times per day, when you need to roll a Skill Test outside of a conflict, you can take twice the time and substitute the Skill Test for Technology instead.",
+        "prerequisite": "",
+        "influence": 9
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 10,
+      "fields": {
+        "name": "Force",
+        "description": "If you make a successful unarmed attack using Might, you may do an additional point of Health damage. But using this ability is exhausting so you may only use it once per scene.",
+        "prerequisite": "",
+        "influence": 10
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 11,
+      "fields": {
+        "name": "Focus",
+        "description": "You can dedicate your mind to a single task and let nothing disturb you. You may add +2 to your Willpower against an attempt to stop you performing an action or stopping your plans.",
+        "prerequisite": "",
+        "influence": 11
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 12,
+      "fields": {
+        "name": "Those Who Know, Teach",
+        "description": "Three times per day, when you Lend Assistance, the creature you assist gains the benefits of your help for the rest of the scene/encounter instead of 1 Skill Test.",
+        "prerequisite": "",
+        "influence": 12
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 13,
+      "fields": {
+        "name": "Fresh Marks",
+        "description": "You gain Edge on Deception Skill Tests the first time you target a specific creature.",
+        "prerequisite": "",
+        "influence": 13
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 14,
+      "fields": {
+        "name": "Acrobatic Reaction",
+        "description": "Once per day, when an effect successfully targets your Evasion, you can immediately make an Acrobatics Skill Test against a DIF set by the results of the effect’s Skill Test. If you succeed, the effect fails. For example, if a snare trap successfully hooks your hoof, you can use Acrobatic Reaction to see if your natural nimbleness saved you at the last second.",
+        "prerequisite": "",
+        "influence": 14
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 15,
+      "fields": {
+        "name": "Party Power",
+        "description": "You have an almost magical ability to get a party started with a loud and exciting signature move. It may be firing a confetti cannon from nowhere, conjuring a few crates of bubbly fizzy drink, spontaneously covering an area in decorations or even getting everyone in the area dancing. You can use this ability three times a day, and when you do, not only does the party begin, but the group gains a Friendship Point.",
+        "prerequisite": "",
+        "influence": 15
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 16,
+      "fields": {
+        "name": "Muscle Over Panache",
+        "description": "Three times per day, you can use Brawn in place of a Speed skill on a Skill Test",
+        "prerequisite": "",
+        "influence": 16
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 17,
+      "fields": {
+        "name": "Detail Oriented",
+        "description": "When you make a Finesse Skill Test you may choose to use either a Move or a Standard Action for the Test. You may use this Perk three times/day.",
+        "prerequisite": "",
+        "influence": 17
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 18,
+      "fields": {
+        "name": "Street Smarts",
+        "description": "Once per day, when performing a Skill Test you can try to cheat or make the Test in an underhanded way. You should describe how this deceitful action helps your Skill Test to the GM. If the GM agrees the subterfuge will help, you may use Edge on the Test. But if the Test fails your duplicity is revealed and you may not gain a Friendship point for the rest of the scene.",
+        "prerequisite": "",
+        "influence": 18
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 19,
+      "fields": {
+        "name": "Shoots and Scores",
+        "description": "When you achieve Critical Success at an Athletics Skill Test, you gain a Friendship point.",
+        "prerequisite": "",
+        "influence": 19
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 20,
+      "fields": {
+        "name": "Springy",
+        "description": "When you roll your first Initiative Skill Test in a Conflict, you can do so as if you have a specialty in Initiative.",
+        "prerequisite": "",
+        "influence": 20
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 21,
+      "fields": {
+        "name": "Natural Style",
+        "description": "People can’t help but be impressed with your style. When meeting anycreature for the first time you gain ↑1 on any Social Essence Skill Test you make involving them for that scene.",
+        "prerequisite": "",
+        "influence": 21
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 22,
+      "fields": {
+        "name": "Bait and Switch",
+        "description": "You may spend a Friendship Point to get your allies to help you distract and confuse onlookers. If you do, you gain Edge on any Deception or Infiltration Skill Tests you make until your next turn.",
+        "prerequisite": "",
+        "influence": 22
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 23,
+      "fields": {
+        "name": "Take in a Scene",
+        "description": "When you roll for Initiative, also roll an Alertness Skill Test to notice any creatures trying to Surprise you. If you succeed, you are not Surprised.",
+        "prerequisite": "",
+        "influence": 23
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 24,
+      "fields": {
+        "name": "Wheel Excited",
+        "description": "You gain Edge on Skill Tests related to one type of vehicle (Land, Sea, or Air, which you pick when you gain this Perk). This might be an Acrobatics Skill Test to embark on a moving vehicle, a Technology Skill Test to fix a broken vehicle, and, of course, Driving tests to drive vehicles.",
+        "prerequisite": "",
+        "influence": 24
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 25,
+      "fields": {
+        "name": "Acute Sense",
+        "description": "Whether you were born this way or it developed, one of your five senses is much stronger than those of an average pony. Choose sight, sound, smell, taste, or touch. You gain the following benefits:\r\n • You gain Edge on Alertness Skill Tests where your chosen sense can be applied.\r\n • You gain ↑1 on non-Alertness Skill Tests your chosen sense can be applied.\r\nThe information you gain from a successful Skill Test relates to your chosen sense. If you choose sight, you’ll get roughly the same information the average pony gets on a success, you’re just more likely to succeed. If you choose taste, it won’t come up as often as the  other senses (please don’t go around licking everything), but when it does come up, you will get a suite of information ponies looking around might miss!\r\nYou can choose this Perk up to five times; once for each Sense.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 26,
+      "fields": {
+        "name": "Adolescent Attitude",
+        "description": "Finding your place in the world, you gain the following benefits:\r\n • You may reroll 1s on Skill dice used for Social Skill Tests.\r\n • Once per scene, you can roll an untrained Skill Test as if you had a d2 Rank.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 27,
+      "fields": {
+        "name": "Always Alert",
+        "description": "Always aware of your surroundings, you gain the following benefits:\r\n • You gain Edge on Initiative Skill Tests.\r\n • You can’t be Surprised as long as you are conscious.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 28,
+      "fields": {
+        "name": "Animal Friend",
+        "description": "You see wild animals as being just as important and social as ponies and other sentient creatures in Equestria. When dealing socially with an animal, you are always considered to have a Specialization.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 29,
+      "fields": {
+        "name": "Animal Pet",
+        "description": "Wherever you go, a loyal animal follows you. You gain an animal pet. You can choose this Perk up to three times, each time either gaining a new pet, or improving a single pet with a new advance. See page 154-157 for more detail on animal pets and advances.",
+        "prerequisite": "Animal Handling d4+",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 30,
+      "fields": {
+        "name": "Baker",
+        "description": "When you don’t have a recipe in the oven, you have one in mind. You can use Culture or Perform Skill Tests in place of Wealth Tests when the Test is related to food.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 31,
+      "fields": {
+        "name": "Bowl-Over",
+        "description": "You are adept at throwing your weight around. You can use a Free action to gain Edge when attempting to shove another creature.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 32,
+      "fields": {
+        "name": "Compassionate",
+        "description": "You go out of your way to help, gaining the following benefits:\r\n • You gain Edge on Diplomacy Skill Tests to suggest non-aggressive solutions.\r\n • You can heal a target 1 Damage with a successful DIF 12 Persuasion Skill Test.\r\n • You gain Edge on Skill Tests to acquire food, water, medicine, or shelter for other creatures.",
+        "prerequisite": "Social 3",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 33,
+      "fields": {
+        "name": "Dabbler",
+        "description": "You change your mind as often as you change your clothes: Once a day. Every morning, you can choose to lower a Skill by 1 Rank and increase another Skill of the same Essence Score (or your Spellcasting skill) by 1 Rank. This change reverts back to normal when you wake the next day.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 34,
+      "fields": {
+        "name": "Dig Deep",
+        "description": "You have a deep reserve of fighting spirit, gaining the following benefits:\r\n • Once per scene, you can ignore 1 Damage by suffering Snag on all Skill Tests until the end of your next turn.\r\n • Once per scene, you can restore 1d2 Health by forfeiting your entire turn.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 35,
+      "fields": {
+        "name": "Dodgy",
+        "description": "Fast and nimble on you hooves, you gain the following benefits:\r\n • A +2 bonus to your Evasion.\r\n • On any round where you do not move more than 5 feet you may Defend as a Free action.",
+        "prerequisite": "Speed 3",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 36,
+      "fields": {
+        "name": "Dress Maker",
+        "description": "You always dress for the occasion. You can use Culture or Perform Skill Tests in place of Wealth Tests to buy clothing and fashion accessories.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 37,
+      "fields": {
+        "name": "Educated",
+        "description": "You have learned a lot from being in school, gaining the following benefits:\r\n • Add an additional Friendship Point to your team’s pool each game session.\r\n • Once per day, you can act as though you have a Specialization in any Smarts Skill.",
+        "prerequisite": "Smarts 3",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 38,
+      "fields": {
+        "name": "Experienced Spellcaster",
+        "description": "Your magical study focuses on spells. You gain ↑1 on your Spellcasting skill when using you abilities to cast magical spells.",
+        "prerequisite": "Magical, Spellcasting d2",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 39,
+      "fields": {
+        "name": "Expertise",
+        "description": "You have been practicing diligently. Choose a Skill with d4 Rank or higher for this Perk to apply to. You gain the following benefits to the chosen Skill:\r\n • Ignore the first ↓1 dice downshift applied to your Skill Tests.\r\n • You may reroll 1s on any Skill dice rolled. You may take this Perk up to three times, but for different Skills.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 40,
+      "fields": {
+        "name": "Extra Effective Spell",
+        "description": "Your spells have greater impact. When you cast a spell, you can pay double the Cost to double the effect.",
+        "prerequisite": "Magical, Spellcasting d4",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 41,
+      "fields": {
+        "name": "Farmer",
+        "description": "You learned at a young age how to live off the land. You can use Brawn or Survival Skill Tests in place of Wealth Tests related to buying simple, practical items.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 42,
+      "fields": {
+        "name": "Fast",
+        "description": "You are incredibly quick, gaining the following benefits:\r\n • You gain a ↑2 bonus to Initiative Skill Tests.\r\n • Choose one movement type you already possess and increase it by 10 feet.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 43,
+      "fields": {
+        "name": "Fearsome",
+        "description": "You make other creatures nervous. Intimidation is a Social Skill for you, in addition to being a Strength Skill. You gain a ↑1 on Intimidation Skill Tests with your hard stare.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 44,
+      "fields": {
+        "name": "Frenemy",
+        "description": "Sometimes, you know your enemies as well as your friends, and might even enjoy the challenge of facing each other, even with no quarter. When you use an ability that targets ‘a friend’, you can instead target any creature with it, even if you don’t know them very well or you don’t get along.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 45,
+      "fields": {
+        "name": "Gallant",
+        "description": "You dress for the occasion, and yet you always stand out. You gain ↑1 on Social Skill Tests in Scenes where no creatures are acting aggressively and your style might influence how other creatures act.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 46,
+      "fields": {
+        "name": "Healthy Cooking",
+        "description": "Not only are your recipes delicious, they’re good for you! You can use Culture or Perform in place of Science Skill Tests to Heal damage in scenes where no creatures are acting aggressively.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 47,
+      "fields": {
+        "name": "Illusionist",
+        "description": "You are not a magical pony, but don’t tell anypony that. You may appear to cast any Elementary or Superior spell, using a Deception or Science Skill Test instead of Spellcasting. On a success, onlookers believe you have actually cast the spell (using all manner of smoke and mirrors). However, the spells only appear to work, they don’t actually work. So you can’t deal damage, heal, fly, or read minds, but you can look as if you have.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 48,
+      "fields": {
+        "name": "Inspired",
+        "description": "You are driven to do great things, and it shows. You may reroll one die (any die at all) once per day.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 49,
+      "fields": {
+        "name": "Iron Hooves",
+        "description": "Your kicks strike hard and true. Your unarmed attacks deal +1 Damage.",
+        "prerequisite": "Strength 3",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 50,
+      "fields": {
+        "name": "Long Lasting Spell",
+        "description": "Your spells linger. When you cast a spell, you can pay double its Cost to double the Duration.",
+        "prerequisite": "Magical, Spellcasting d4",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 51,
+      "fields": {
+        "name": "Luck",
+        "description": "You must have been born under a lucky sign, have a guardian angel, or some kind of karmic boon that keeps you from making terrible mistakes. You may re-roll any natural 1 on any Skill Die of d4 or higher you roll. You must accept the second result.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 52,
+      "fields": {
+        "name": "Magical",
+        "description": "You are a magical pony and are capable of casting spells. When you invest Skill Points into the Spellcasting Skill, you also Master a spell. You can only Master a Superior spell when you have at least d6 in Spellcasting, and a Virtuoso spell when you have a d10 in Spellcasting.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 53,
+      "fields": {
+        "name": "Prankster",
+        "description": "When somepony lets their guard down around you, they leave themselves open for a prank. You gain Edge on any Social Skill Tests made against Surprised creatures.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 54,
+      "fields": {
+        "name": "Potion Brewer",
+        "description": "You get more out of a cauldron than magical ponies get out of spellbooks. You can craft Magic Bauble potions out of spells you haven’t Mastered without needing to Research them first.",
+        "prerequisite": "Spellcasting d4",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 55,
+      "fields": {
+        "name": "Quick Thinker",
+        "description": "You’ve always been a smart cookie. On your turn, you gain a number of Free actions equal to Your Smarts Essence minus 2, instead of your Speed Essence minus 2.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 56,
+      "fields": {
+        "name": "Sonic Rainboom",
+        "description": "You fly at spectacular speeds, ending in a burst of rainbow light visible for miles. It is a display that is both exciting and inspiring for those who see it. When you Sprint, you can move up to twice your air movement. If you Sprint while flying for two rounds, when you end your Sprint, all of your friends gain ↑ to their Skill Tests until the beginning of your next turn.",
+        "prerequisite": "50 feet air",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 57,
+      "fields": {
+        "name": "Super Specialized",
+        "description": "You are exceptionally focused and while this is good for things you know well, you are not very good at things outside your main areas of study  and training. Choose a Skill you have at least one Specialization in. You gain ↑1 with that Skill when your Specializations apply.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 58,
+      "fields": {
+        "name": "Talented",
+        "description": "You’ve worked your hooves hard to improve your technique. Choose a Specialization; this is now considered one of your Talents. Once per scene, you can use a Standard action related to your Talents as a Move action instead, a Move action as a Free action, and a Free action related to your Talent as no action at all. You can take this General Perk multiple times, picking a new Specialization to add to your Talents. The amount of times you have taken this Perk is the amount of times it may be used in a scene. On each use, any single Talent may be picked to benefit from it.",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 59,
+      "fields": {
+        "name": "Wealth",
+        "description": "Your purse runs over with bits. You gain the following benefits:\r\n • Once per game session, you may choose to automatically pass any Skill Tests whose success could be bought.\r\n • You gain Edge on Social Skill Tests where you can flaunt your wealth.\r\n • Improve your wealth status by 1 level (you may take this Perk again multiple times to improve your wealth status by 1 each time).",
+        "prerequisite": "",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 60,
+      "fields": {
+        "name": "Adaptable",
+        "description": "Pick one of your Essence Scores for this Perk to apply to. Once per scene, when using a Skill from that Essence Score, you can make the roll as though you have a Specialization. If you already have a Specialization for that skill, you get no bonus, so you’d best save it for later!",
+        "prerequisite": "Earth Pony",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 61,
+      "fields": {
+        "name": "Lighter Than Air",
+        "description": "Aerial acrobatics are in your hollow bones. You get ↑1 on Acrobatics Skill Tests. Additionally, you can land on clouds and walk around Pegasus sky cities.",
+        "prerequisite": "Pegasus",
+        "influence": null
+      }
+    },
+    {
+      "model": "charactercreator.perk",
+      "pk": 62,
+      "fields": {
+        "name": "Telekinesis",
+        "description": "Unicorns learn to use their telekinetic abilities to manipulate objects at a distance, which makes their horn glow with magical power. They can maneuver any object as if picking it up themselves up to a distance of 10 feet away from you. However, this power uses their Smarts not their Strength to move the object. So any Skill Test they make to manipulate the object uses their Alertness Skill instead of their Might or Brawn Skill.",
+        "prerequisite": "Unicorn",
+        "influence": null
+      }
+    }
+  ]
+}

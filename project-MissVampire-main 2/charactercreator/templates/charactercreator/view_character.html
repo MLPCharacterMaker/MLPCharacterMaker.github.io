@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ character.name }}</title>
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'charactercreator/styles/styles.css' %}">
+</head>
+<style>
+    @font-face {
+        font-family: "Ponyville Medium";
+        src: url("{% static 'charactercreator/fonts/PonyvilleMedium.ttf' %}") format('truetype');
+    }
+
+    body {
+        font-family: "Ponyville Medium", Arial, serif;
+    }
+</style>
+<body>
+<div class="header">
+    <a class="logo" href="/">MLP TTRPG Character Creator & Manager</a>
+    <div class="nav">
+        <a href="/characters">List of characters</a>
+        <a href="/characters/create">Create a character</a>
+        <a href="/map">Map</a>
+    </div>
+</div>
+<div class="body">
+    <h1>{{ character.name }}</h1>
+    {% if character.image %}
+        <img src="{{ character.image.url }}" alt="Image of {{ character.name }}" style="width:250px">
+    {% endif %}
+    <br>
+    <p>Level: {{ character.level }}</p>
+    <p>Origin: {{ character.get_origin_display }}</p>
+    <p>Health: {{ character.health }}</p>
+    <br>
+    <p>Movement: {{ character.movement }}</p>
+    <p>Role: {{ character.get_role_display }}</p>
+    <p>Pronouns: {{ character.get_pronouns_display }}</p>
+    <br>
+    {% if character.cutie_mark_image %}
+        <img src="{{ character.cutie_mark_image.url }}" alt="{{ character.name }}'s cutie mark" style="width:150px"><br>
+    {% endif %}
+    <p>Special Talent: {{ character.special_talent }}</p>
+    <br>
+    <p>Bio: {{ character.description }}</p>
+    <br>
+    <p>Strength: {{ character.strength }} = {{ character.base_strength }} + {{ character.get_strength_status_display }}
+        ({{ bonus.strength }})<br>
+        Speed: {{ character.speed }} = {{ character.base_speed }} + {{ character.get_speed_status_display }}
+        ({{ bonus.speed }})<br>
+        Smarts: {{ character.smarts }} = {{ character.base_smarts }} + {{ character.get_smarts_status_display }}
+        ({{ bonus.smarts }})<br>
+        Social: {{ character.social }} = {{ character.base_social }} + {{ character.get_social_status_display }}
+        ({{ bonus.social }})</p>
+    <br>
+    Perks:
+    <ul class="stats">
+        {% for perk in character.perks.all %}
+            <li>
+                <strong>{{ perk.name }}:</strong> {{ perk.description }}
+            </li>
+        {% empty %}
+            <p>No perks assigned to this character.</p>
+        {% endfor %}
+    </ul>
+
+
+    Hang-ups:
+    <ul class="stats">
+        {% for hangup in character.hangups.all %}
+            <li>
+                <strong>{{ hangup.name }}:</strong> {{ hangup.description }}
+            </li>
+        {% empty %}
+            <p>No hang-ups assigned to this character.</p>
+        {% endfor %}
+    </ul>
+
+    Background Bonds:
+    <br>
+    <ul class="stats">
+        {% for bond in character.background_bonds.all %}
+            <li>
+                {{ bond.description }}
+            </li>
+        {% empty %}
+            No background bonds assigned to this character.
+        {% endfor %}
+    </ul>
+    <br>
+
+
+    {% if is_owner %}
+        <a href="{% url 'edit-character' character.pk %}" class="btn btn-primary">Edit Character</a>
+    {% endif %}
+
+    <a href="{% url 'character-list' %}">Back to character list</a>
+</div>
+<div class="footer">
+    <a href="/characters">List of characters</a>
+    <a href="/characters/create">Create a character</a>
+    <a href="/logout">Logout</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+</div>
+</body>
+</html>
